@@ -47,11 +47,8 @@ class cellObjects{
   void instantiater (int foodAmt){
     for (int r = 0; r < rows; r++){
       for (int c = 0; c < cols; c ++){
-        int sqSize = width/cols; //size
-        int xPl = sqSize * c; //x place calc
-        int yPl = sqSize * r; //y place calc
-        grid[r][c] = new Grid(xPl, yPl, sqSize, GROUND);
-
+        Food food = new Food(r,c);
+        food.exist = true;
       }
     }
     putFoodIn(foodAmt);
