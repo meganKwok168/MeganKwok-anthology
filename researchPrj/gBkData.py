@@ -34,6 +34,8 @@ def query():
             writer.writerow(header)
             
             for i in range(len(items)): #part after first comma in () are fill-ins in case there isn't a value from google
+                                        #was previously doing title = data[items][i]["volumeInfo"][title], but that has no space for error
+                                        #code still has an error though
                 volumeInfo = items[i].get("volumeInfo",{})
                 title = volumeInfo.get("title", "N/A")
                 authors = volumeInfo.get("authors",["Unknown"])
