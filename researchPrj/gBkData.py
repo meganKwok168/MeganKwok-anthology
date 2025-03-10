@@ -1,7 +1,6 @@
 #google books data
 
 import requests
-import json
 import csv
 
 def query():
@@ -11,9 +10,10 @@ def query():
     api = "https://www.googleapis.com/books/v1/volumes"
     params = {
         "q": "python programming",
-        "publishedDate": "2008",
+        # "publishedDate": "2008", #doesn't even change anything
         # "startIndex": startIndex,
-        "maxResults": 40 #max -- will have to loop -- maybe w/ a while True
+        "maxResults": 40 #max -- may have to loop -- maybe w/ a while True
+                        #or maybe pull out rly big #'s and check if they exist
     }
 
     r = requests.get(api, params=params)
@@ -24,31 +24,23 @@ def query():
         # print(jprint)
         
         #pullling only item#, title, author out
-        items = data["items"]
+        items = data.get("items", [])
 
         #writing to csv
         with open("gBkData.csv", "w", newline ='') as file:
 
-            header = ['num','title','authors']
+            header = ['num','title','authors','published date']
             writer = csv.writer(file)
             writer.writerow(header)
             
-            for i in range(len(items)):
-                title = data["items"][i]["volumeInfo"]["title"]
-                authors = data["items"][i]["volumeInfo"]["authors"]
+            for i in range(len(items)): #part after first comma in () are fill-ins in case there isn't a value from google
+                volumeInfo = items[i].get("volumeInfo",{})
+                title = volumeInfo.get("title", "N/A")
+                authors = volumeInfo.get("authors",["Unknown"])
+                publishedDate = volumeInfo.get("publishedDate","Unknown")
                 
-                writer.writerow([i+1, title, authors])
+                writer.writerow([i+1, title, ", ".join(authors), publishedDate])
                 
-                print (f'#{i+1}, Title: {title}, Authors: {authors}')
-
-
-                
-        #bookmark====================================================^^^^
-            
-        # with open("gBkScrape.json", "w") as file:
-        #     file.write('')
-        #     print('contents cleared')
-        #     json.dump(data, file)
-        #     print('done')
+                print (f'#{i+1}, Title: {title}, Authors: {", ".join(authors)}, Published Date: {publishedDate}')
 
 query()

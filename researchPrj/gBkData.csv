@@ -1,23 +1,28 @@
-num,title,authors
-1,"Automate the Boring Stuff with Python, 2nd Edition",['Al Sweigart']
-2,Learning Python,['Mark Lutz']
-3,Python Programming,['John M. Zelle']
-4,Python Crash Course,['Eric Matthes']
-5,Introduction to Python Programming,"['Gowrishankar S', 'Veena A']"
-6,Python for Kids,['Jason R. Briggs']
-7,Python Programming for Beginners: A Comprehensive Crash Course With Practical Exercises to Quickly Learn Coding and Programming for Data Analysis and Machine Learning,['Anthony Adams']
-8,THE GUN RIGHTS WAR,['Mark Lutz']
-9,"Introduction to Computation and Programming Using Python, second edition",['John V. Guttag']
-10,Programming With Python,['Vaibhav Gondaliya']
-11,Python Tutorial 3.11.3,"['Guido Van Rossum', 'Python Development Team']"
-12,Python Programming in Context,"['Bradley N. Miller', 'David L. Ranum', 'Julie Anderson']"
-13,Bite-Size Python,['April Speight']
-14,Get Programming,['Ana Bell']
-15,Python Programming in Context,"['Bradley N. Miller', 'David L. Ranum']"
-16,Learning Python,['Mark Lutz']
-17,Python,['Paul Jones']
-18,Python for Everybody,['Charles R. Severance']
-19,The Big Book of Small Python Projects,['Al Sweigart']
-20,Core Python Programming,['Wesley Chun']
-21,Learn Python 3 the Hard Way,['Zed A. Shaw']
-22,Learn Python Programming,"['Fabrizio Romano', 'Heinrich Kruger']"
+num,title,authors,published date
+1,"Automate the Boring Stuff with Python, 2nd Edition",Al Sweigart,2019-11-12
+2,Learning Python,Mark Lutz,2013-06-12
+3,Python Crash Course,Eric Matthes,2015-11-01
+4,Introduction to Python Programming,"Gowrishankar S, Veena A",2018-12-07
+5,Python Programming,John M. Zelle,2004
+6,Python Programming for Beginners: A Comprehensive Crash Course With Practical Exercises to Quickly Learn Coding and Programming for Data Analysis and Machine Learning,Anthony Adams,2021-12-15
+7,Learning Scientific Programming with Python,Christian Hill,2020-11-12
+8,Python for Kids,Jason R. Briggs,2012-12-12
+9,"Introduction to Computation and Programming Using Python, second edition",John V. Guttag,2016-08-12
+10,THE GUN RIGHTS WAR,Mark Lutz,1996
+11,Fluent Python,Luciano Ramalho,2015-07-30
+12,Programming With Python,Vaibhav Gondaliya,2019-08-30
+13,Python Tutorial 3.11.3,"Guido Van Rossum, Python Development Team",2023-05-12
+14,Python Programming in Context,"Bradley N. Miller, David L. Ranum, Julie Anderson",2019-10-01
+15,Python for Everybody,Charles R. Severance,2016-04-09
+16,Get Programming,Ana Bell,2018-03-27
+17,Bite-Size Python,April Speight,2020-08-03
+18,Classic Computer Science Problems in Swift,David Kopec,2018-03-24
+19,Python,Paul Jones,2016-10-26
+20,Python Programming in Context,"Bradley N. Miller, David L. Ranum",2008-09-05
+21,Learning Python,Mark Lutz,2007-10-22
+22,Python Cookbook,"David Beazley, Brian K. Jones",2013-05-10
+23,Core Python Programming,Wesley Chun,2001
+24,Learn Python Programming,"Fabrizio Romano, Heinrich Kruger",2024-11-29
+25,"Invent Your Own Computer Games with Python, 4th Edition",Al Sweigart,2016-12-16
+26,Coding for Kids: Python,Adrienne B. Tacke,2019-03-19
+27,Murach's Python Programming (2nd Edition),"Joel Murach, Michael Urban",2021-04
