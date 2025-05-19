@@ -24,6 +24,6 @@ for year in list(range(2011, 2021)) + [2022, 2023]:
     with open(writeData, mode='a', newline='') as dataFile:
         writer = csv.writer(dataFile)
         for i in d:
-            if i != '' and d[i] > 5:
+            if i != '' and i != 'na' and d[i] > 5:
                 writer.writerow([year,i,d[i]])    
     print(f'{year} processed')
