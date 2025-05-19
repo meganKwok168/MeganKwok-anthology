@@ -47,7 +47,7 @@ Java,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,,,,,,VBA
 ,JavaScript,,,,,SQL,C#,,,,,
-,,,,,,SQL,C#,,,,,"VB.NET, WPF, Silverlight, Entity-Framework"
+,,,,,,SQL,C#,,,,,VB.NET, WPF, Silverlight, Entity-Framework
 Java,,,,,,,,,C,,,
 Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,Ruby,,C#,C++,C,,,
@@ -92,7 +92,7 @@ Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,
 ,,,,,,SQL,,,,,,R; VBA
 Java,,,,,,,,,,,,
 ,,,,,,SQL,,,,,,Object Pascal
-,,,,,,,C#,,,,,"VB.NET, VB6, VBA"
+,,,,,,,C#,,,,,VB.NET, VB6, VBA
 ,,,,,Ruby,SQL,C#,,,Perl,,
 ,,,,,,,,,,,,
 ,,CSS,,,,,,,,,,
@@ -140,7 +140,7 @@ Java,JavaScript,CSS,PHP,,,SQL,C#,C++,,,,
 Java,,,PHP,Python,,SQL,,,C,,,
 Java,JavaScript,CSS,PHP,,,,,C++,,,,XSLT
 ,,,,,,,,,,,,
-,JavaScript,CSS,PHP,,,,,,,,,"If CSS is a language, surely so is HTML?"
+,JavaScript,CSS,PHP,,,,,,,,,If CSS is a language, surely so is HTML?
 Java,JavaScript,CSS,,,Ruby,SQL,,C++,C,Perl,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -208,7 +208,7 @@ Java,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,,,,,SQL,C#,,,,,
 Java,,,,,,SQL,,,,Perl,,
 ,,,,,,SQL,C#,C++,C,,,
-,,,,,,SQL,C#,,,,,"Objective-C, GeneXus"
+,,,,,,SQL,C#,,,,,Objective-C, GeneXus
 ,,,,,,,,,C,,,Applescript
 ,,,,,,SQL,C#,,,,,vb.net
 ,,,,,,SQL,C#,,,,,
@@ -229,7 +229,7 @@ Java,JavaScript,CSS,,,,SQL,,C++,C,Perl,,
 Java,JavaScript,CSS,PHP,Python,Ruby,SQL,C#,,,,,
 Java,,,,,,SQL,,,C,Perl,,
 ,JavaScript,CSS,PHP,Python,,SQL,,,,,,
-,JavaScript,CSS,,,,SQL,C#,C++,C,,,"html, xml"
+,JavaScript,CSS,,,,SQL,C#,C++,C,,,html, xml
 Java,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,,C#,,,,,
@@ -257,7 +257,7 @@ Java,JavaScript,CSS,PHP,Python,,SQL,,,C,,,
 ,,,,,,,C#,C++,,,,
 Java,JavaScript,CSS,PHP,,Ruby,SQL,,C++,C,,,
 Java,,,,,,SQL,,,,,,
-Java,JavaScript,CSS,,,,,,C++,C,,,"Lisp, Clojure"
+Java,JavaScript,CSS,,,,,,C++,C,,,Lisp, Clojure
 ,JavaScript,CSS,PHP,,Ruby,SQL,,,,,,
 Java,JavaScript,,PHP,Python,,SQL,C#,,C,Perl,,Erlang
 Java,,,,Python,,,,C++,C,,,
@@ -271,7 +271,7 @@ Java,,,,,,,,C++,C,Perl,,Objective-C
 ,,,,Python,,,C#,,C,,,ActionScript
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,Python,,,,,,,,
-,JavaScript,CSS,PHP,,,SQL,C#,,,,,"vb.net, bash scripting"
+,JavaScript,CSS,PHP,,,SQL,C#,,,,,vb.net, bash scripting
 Java,,,,,,,,,,Perl,,
 ,JavaScript,CSS,PHP,,,SQL,,C++,C,,,Lua
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -291,7 +291,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,C,,,
 Java,JavaScript,CSS,,Python,,SQL,,,C,Perl,,
 Java,,,,,,,C#,,,,,
 ,,,,Python,,,C#,C++,,,,
-,,CSS,,,Ruby,,,,,,,"VB, Objective C"
+,,CSS,,,Ruby,,,,,,,VB, Objective C
 Java,JavaScript,CSS,PHP,Python,,SQL,C#,C++,,Perl,,sh
 Java,JavaScript,CSS,,,,SQL,,,,,,
 Java,JavaScript,CSS,PHP,Python,,SQL,C#,C++,C,Perl,,
@@ -345,7 +345,7 @@ Java,,,PHP,Python,Ruby,,,,C,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,asp.net
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,WebFOCUS
-,,,,,,SQL,,C++,,,,"COBOL, shell, awk"
+,,,,,,SQL,,C++,,,,COBOL, shell, awk
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,Python,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,,,,,C++,C,,,
@@ -376,7 +376,7 @@ Java,JavaScript,CSS,PHP,,Ruby,SQL,C#,,,Perl,,
 ,JavaScript,CSS,PHP,,Ruby,,,,,,,Objective-C (OSX)
 Java,JavaScript,CSS,PHP,Python,Ruby,SQL,C#,,C,,,
 Java,JavaScript,CSS,,,,,C#,,,,,
-Java,JavaScript,CSS,,Python,Ruby,,,,,,,"Scala, Haskell, more"
+Java,JavaScript,CSS,,Python,Ruby,,,,,,,Scala, Haskell, more
 ,,,,,,,,,,,,objective-c
 Java,JavaScript,CSS,,,,,,,,,,
 ,JavaScript,,PHP,,,SQL,C#,,,,,
@@ -388,13 +388,13 @@ Java,JavaScript,,PHP,,,SQL,,,,,,coldfusion
 ,JavaScript,CSS,PHP,Python,,SQL,,,,Perl,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,,C++,,,,
 Java,,,,,,,,C++,,,,
-Java,,,,,,SQL,C#,C++,C,,,"F#, VB, Delphi"
+Java,,,,,,SQL,C#,C++,C,,,F#, VB, Delphi
 ,,,,,,SQL,C#,,,,,
 ,,,,,,,,,,Perl,,shell
 Java,JavaScript,CSS,,,,,C#,C++,C,,,
 ,JavaScript,CSS,,,Ruby,,,,C,,,
 Java,JavaScript,CSS,,,,,C#,,,,,
-Java,JavaScript,CSS,,,,SQL,C#,,,,,"ActionScript3, VB.Net"
+Java,JavaScript,CSS,,,,SQL,C#,,,,,ActionScript3, VB.Net
 ,JavaScript,,,,Ruby,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,VB
 ,JavaScript,CSS,,,Ruby,SQL,C#,C++,,Perl,,
@@ -420,7 +420,7 @@ Java,,,,Python,,,,C++,C,,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,,,C,,,
 Java,JavaScript,CSS,,,,SQL,,,,,,Scala
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
-,,,,,,SQL,C#,,,Perl,,"""Proficient"" seems too rosey a word for it."
+,,,,,,SQL,C#,,,Perl,,Proficient seems too rosey a word for it.
 Java,,CSS,PHP,,Ruby,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,C#,C++,,,,
@@ -498,17 +498,17 @@ Java,,CSS,PHP,Python,,SQL,,C++,,,,
 ,,,,,,,C#,C++,,,,
 ,JavaScript,CSS,PHP,,,,C#,,,,,
 Java,,CSS,,,,,C#,C++,C,,,
-,,,PHP,,,,,,C,Perl,,"Lua, SQL"
+,,,PHP,,,,,,C,Perl,,Lua, SQL
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,Python,Ruby,,,,,,,
 ,,CSS,,Python,Ruby,,,C++,C,Perl,,Haskell
 ,,,,,,SQL,C#,,,,,
 ,,,,,,SQL,C#,C++,,,,
 Java,JavaScript,,,Python,,SQL,C#,C++,C,,,
-,,CSS,,,Ruby,SQL,C#,,,,,"Delphi, Objective-C"
+,,CSS,,,Ruby,SQL,C#,,,,,Delphi, Objective-C
 ,,,,,,SQL,C#,C++,,,,
 Java,,,,Python,,SQL,C#,,,Perl,,
-Java,JavaScript,CSS,PHP,,,SQL,,,,,,"Actionscript 3, Objective-C"
+Java,JavaScript,CSS,PHP,,,SQL,,,,,,Actionscript 3, Objective-C
 ,,,,Python,,,,,,,,R
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,,PHP,,,SQL,,,,,,Delphi
@@ -538,7 +538,7 @@ Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,,,,,,,,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,vb.net
-Java,JavaScript,CSS,,,Ruby,SQL,,C++,C,,,"Adobe Flex, Delphi"
+Java,JavaScript,CSS,,,Ruby,SQL,,C++,C,,,Adobe Flex, Delphi
 Java,JavaScript,,PHP,,,SQL,C#,C++,C,,,
 Java,JavaScript,CSS,,,,SQL,C#,C++,C,,,
 ,,,,,,SQL,C#,C++,C,,,Objective-C
@@ -567,7 +567,7 @@ Java,JavaScript,CSS,,,Ruby,SQL,C#,C++,,,,Objective-C
 Java,,,PHP,,,,,C++,C,,,
 Java,,,PHP,,,,,,,,,
 Java,,CSS,,,,,C#,C++,C,,,
-Java,JavaScript,,,,Ruby,SQL,C#,,,,,"Groovy, Erlang"
+Java,JavaScript,,,,Ruby,SQL,C#,,,,,Groovy, Erlang
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,,,,Python,,,C#,C++,C,,,
 Java,JavaScript,CSS,,Python,Ruby,SQL,C#,,C,,,
@@ -597,7 +597,7 @@ Java,JavaScript,,PHP,,,,,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,JavaScript,,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-Java,JavaScript,,,Python,,,,C++,,,,"prolog, lua"
+Java,JavaScript,,,Python,,,,C++,,,,prolog, lua
 Java,,,,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,,C#,C++,C,Perl,,
 ,JavaScript,CSS,,,,,,,,,,html
@@ -676,7 +676,7 @@ Java,JavaScript,CSS,,,,SQL,,,,,,
 Java,,,,,,,,C++,,,,R
 Java,JavaScript,CSS,,,Ruby,,,,,,,
 Java,,CSS,,Python,,SQL,,,,,,
-,JavaScript,CSS,PHP,,,SQL,,,C,,,"Objective-C, Cocoa"
+,JavaScript,CSS,PHP,,,SQL,,,C,,,Objective-C, Cocoa
 ,JavaScript,CSS,,,,,,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -698,9 +698,9 @@ Java,JavaScript,CSS,,,,,C#,C++,C,,,
 Java,,,,,Ruby,SQL,C#,C++,C,,,
 Java,,,,,,SQL,,,,,,
 ,,,,,,,,,,,,
-,JavaScript,CSS,PHP,,,,C#,C++,C,Perl,,"bash, tcl"
+,JavaScript,CSS,PHP,,,,C#,C++,C,Perl,,bash, tcl
 Java,JavaScript,,,,,SQL,C#,,,,,
-Java,JavaScript,CSS,,,,SQL,C#,C++,C,,,"Assembler, BASIC"
+Java,JavaScript,CSS,,,,SQL,C#,C++,C,,,Assembler, BASIC
 Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,,,,,,SQL,C#,,,,,
 ,,CSS,,,,SQL,C#,,,,,
@@ -727,21 +727,21 @@ Java,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,,,,,,,
 Java,,,,Python,,SQL,,,,,,
 ,,,,,,,C#,C++,,,,
-Java,JavaScript,CSS,PHP,Python,Ruby,SQL,C#,C++,,,,"lisp,scheme,clojure,bash"
+Java,JavaScript,CSS,PHP,Python,Ruby,SQL,C#,C++,,,,lisp,scheme,clojure,bash
 ,,,,,,,C#,,,,,
 Java,,,,Python,,,,,,,,AS3
 Java,JavaScript,,,Python,,,,C++,C,,,
-,,,,Python,,,,,,,,"bash, BASIC"
+,,,,Python,,,,,,,,bash, BASIC
 ,JavaScript,CSS,PHP,Python,Ruby,SQL,,,,,,Haskell
 ,,,,,,,C#,,,,,
 ,JavaScript,,,,,SQL,,,,,,ActionScript
-,JavaScript,,,,,,C#,,,,,"F#, Haskell"
+,JavaScript,,,,,,C#,,,,,F#, Haskell
 ,,CSS,,Python,,,C#,C++,C,,,
 Java,JavaScript,,PHP,,,SQL,,C++,C,,,
 Java,,,,,,SQL,C#,C++,C,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,HTML
-Java,,,,,,,,,,,,"Objective-C, Smalltalk"
-Java,JavaScript,,,Python,Ruby,,C#,C++,C,,,"Haskell,Scheme"
+Java,,,,,,,,,,,,Objective-C, Smalltalk
+Java,JavaScript,,,Python,Ruby,,C#,C++,C,,,Haskell,Scheme
 ,,,,,,,,,,,,
 Java,JavaScript,CSS,PHP,,Ruby,SQL,,,,,,
 Java,,,,Python,,SQL,,,,,,Haskell
@@ -774,8 +774,8 @@ Java,,,,,,,C#,C++,C,,,
 Java,,,,,,,C#,,,,,Delphi
 ,JavaScript,CSS,PHP,Python,,SQL,C#,C++,,,,
 ,JavaScript,CSS,PHP,,,SQL,,C++,,,,
-,,,,,,SQL,,,C,Perl,,"bash, ksh"
-,JavaScript,CSS,PHP,,,,,,,,,"Objective-C, VB.NET"
+,,,,,,SQL,,,C,Perl,,bash, ksh
+,JavaScript,CSS,PHP,,,,,,,,,Objective-C, VB.NET
 Java,JavaScript,CSS,PHP,,,SQL,C#,C++,,,,
 Java,,,,,,SQL,C#,,C,Perl,,
 Java,JavaScript,,PHP,Python,,SQL,,C++,C,,,
@@ -793,7 +793,7 @@ Java,JavaScript,CSS,PHP,,,,,,C,,,
 ,,,,,,,,C++,C,,,fortran
 ,,,,,,,,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,,,,,,
-Java,,CSS,,,,,,,,,,"Clojure, ActionScript"
+Java,,CSS,,,,,,,,,,Clojure, ActionScript
 ,JavaScript,,,Python,,,,C++,,,,
 ,JavaScript,CSS,PHP,,,,C#,C++,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -808,7 +808,7 @@ Java,JavaScript,CSS,PHP,,,,,,,,,
 ,,,,,,,,,,,,
 Java,,,,Python,,SQL,,,,,,
 ,,,,,,,,,,,,Objective-C (how is this not a choice)
-,JavaScript,CSS,,Python,Ruby,SQL,C#,,,,,"F#,VB6"
+,JavaScript,CSS,,Python,Ruby,SQL,C#,,,,,F#,VB6
 Java,JavaScript,CSS,PHP,,,SQL,C#,C++,,,,
 ,,,,,,,C#,,,,,
 Java,JavaScript,CSS,PHP,,Ruby,,,,,,,
@@ -875,13 +875,13 @@ Java,,CSS,PHP,Python,Ruby,,,C++,C,Perl,,name it.
 Java,JavaScript,,PHP,,Ruby,SQL,,C++,C,,,Objective-C
 ,,CSS,,,,,,,,,,HTML
 ,,CSS,PHP,,,SQL,C#,,,,,ABAP
-Java,,CSS,,,Ruby,,,,C,,,"Shell Scripting, Objective-C"
+Java,,CSS,,,Ruby,,,,C,,,Shell Scripting, Objective-C
 Java,JavaScript,CSS,,,Ruby,,,,,,,
 ,JavaScript,,,,,SQL,C#,,,,,VB
 Java,,,PHP,,,SQL,C#,C++,C,,,
 Java,,CSS,PHP,,,,,C++,C,,,x86 assembler OO-pascal
 ,,,,,,SQL,C#,,,,,
-,JavaScript,CSS,PHP,,,SQL,,C++,C,,None,"Pascal, Assembler"
+,JavaScript,CSS,PHP,,,SQL,,C++,C,,None,Pascal, Assembler
 ,JavaScript,CSS,PHP,Python,,SQL,,C++,C,,,Lua
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,SQL,C#,,,,,
@@ -923,11 +923,11 @@ Java,,,,,,,,,,,,
 Java,,,PHP,,,SQL,C#,C++,C,,,
 ,JavaScript,,,,,,C#,,,,,
 Java,,,,,,SQL,,,C,Perl,,
-,,,,,,SQL,C#,,C,,,"obj-c , vba"
+,,,,,,SQL,C#,,C,,,obj-c , vba
 ,,,,,,,,,C,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,,CSS,PHP,Python,Ruby,SQL,,,C,,,lisp
-,JavaScript,CSS,PHP,Python,,SQL,,,C,Perl,,"Lisp, Haskell, Prolog"
+,JavaScript,CSS,PHP,Python,,SQL,,,C,Perl,,Lisp, Haskell, Prolog
 Java,,,,,,,C#,,,,,
 Java,JavaScript,CSS,,,,,,,,,,
 ,,CSS,,Python,,,,C++,C,,,
@@ -944,7 +944,7 @@ Java,JavaScript,CSS,PHP,Python,,SQL,,,C,Perl,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,C++,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-,,,,,,,C#,C++,C,,,"VB.NET, VB 6, VBScript, VBA"
+,,,,,,,C#,C++,C,,,VB.NET, VB 6, VBScript, VBA
 ,,,,,,,,,C,,,
 ,JavaScript,CSS,PHP,Python,,SQL,,,,Perl,,
 ,,,,,,,,,,,,
@@ -968,7 +968,7 @@ Java,JavaScript,CSS,PHP,,Ruby,SQL,,,C,,,Scala
 ,JavaScript,CSS,,Python,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,,,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
-Java,,,PHP,,,,,C++,C,,,"Haskell, LISP"
+Java,,,PHP,,,,,C++,C,,,Haskell, LISP
 ,,,,,,,C#,,,,,f#
 ,,,,,Ruby,SQL,C#,,,,,
 ,,,,,,,C#,,,,,
@@ -1087,7 +1087,7 @@ Java,,,,Python,,,,,,,,
 ,,,,Python,,,,C++,,,,
 ,,,,,,,C#,,,,,
 ,,,PHP,Python,,,,C++,,,,Scala
-,,,,,,SQL,C#,,,,,"vb.net, Object Pascal"
+,,,,,,SQL,C#,,,,,vb.net, Object Pascal
 Java,,,PHP,Python,,SQL,C#,C++,C,,,Bash
 ,JavaScript,CSS,PHP,,,SQL,,,C,,,Bash
 ,JavaScript,CSS,,Python,,SQL,C#,,,,,
@@ -1131,7 +1131,7 @@ Java,JavaScript,,,,,SQL,C#,,,,,
 Java,,,PHP,,,SQL,C#,,,,,Delphi
 Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,,,,,,,C#,,,,,
-Java,JavaScript,CSS,PHP,Python,Ruby,SQL,,C++,,,,"Groovy, Scala"
+Java,JavaScript,CSS,PHP,Python,Ruby,SQL,,C++,,,,Groovy, Scala
 ,JavaScript,,,,,,C#,,,,,vba
 ,,,,Python,,SQL,C#,,,,,vb/ vba
 Java,JavaScript,CSS,PHP,,,SQL,C#,C++,C,Perl,,
@@ -1236,7 +1236,7 @@ Java,,,,Python,,,,,,,,
 Java,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 Java,JavaScript,CSS,,,,SQL,,,,,,
-,,,,,,,C#,,,,,"VBA, Coldfusion"
+,,,,,,,C#,,,,,VBA, Coldfusion
 ,,,,,,SQL,C#,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
@@ -1305,7 +1305,7 @@ Java,,,,,,SQL,,C++,C,,,
 Java,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,SQL,,,,,,
-,JavaScript,,,,,SQL,C#,,,,,"Flash, Flex, Actionscript"
+,JavaScript,,,,,SQL,C#,,,,,Flash, Flex, Actionscript
 ,JavaScript,CSS,PHP,,,,,,,,,
 Java,,,PHP,,,,,,,,,bash
 ,,,,Python,Ruby,,,C++,C,,,
@@ -1361,7 +1361,7 @@ Java,JavaScript,CSS,,,,SQL,C#,C++,C,,,
 ,,CSS,PHP,Python,,SQL,C#,,,,,
 ,,,,Python,,,C#,,,,,Objective C
 ,,,,,,,C#,C++,,,,
-Java,,CSS,,,,SQL,,C++,C,Perl,,"Common Lisp, Clojure, Scala, LaTeX"
+Java,,CSS,,,,SQL,,C++,C,Perl,,Common Lisp, Clojure, Scala, LaTeX
 ,JavaScript,CSS,,,,SQL,C#,C++,,,,
 ,,,,,,SQL,,C++,C,,,
 ,,,,,,,,,,,,
@@ -1416,14 +1416,14 @@ Java,JavaScript,,,Python,,,,,,,,Groovy Haskell
 ,JavaScript,,,Python,,,,C++,C,,,
 ,,,,,,,,C++,C,,,Objective-C
 Java,,,,,,,,,,,,
-Java,,CSS,PHP,Python,,SQL,C#,C++,C,,,"Assembly, Lisp, Scheme, LOLCODE"
+Java,,CSS,PHP,Python,,SQL,C#,C++,C,,,Assembly, Lisp, Scheme, LOLCODE
 ,JavaScript,CSS,,,Ruby,SQL,,,,,,
 Java,JavaScript,CSS,PHP,Python,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,C,,,
 ,,CSS,,,,,C#,C++,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-Java,,,,Python,Ruby,,,,,,,"Haskell, Prolog"
+Java,,,,Python,Ruby,,,,,,,Haskell, Prolog
 ,,CSS,,,,SQL,C#,,,,,VBA
 ,,,,,,,C#,C++,,,,
 ,,,,,,SQL,C#,,,,,
@@ -1432,7 +1432,7 @@ Java,,,,Python,,,,C++,C,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,Objective-C
 Java,JavaScript,,,,,SQL,C#,,C,,,AS3
 Java,JavaScript,,,,,SQL,C#,,,Perl,,
-,,,PHP,,Ruby,SQL,,,,,,"VB, COBOL"
+,,,PHP,,Ruby,SQL,,,,,,VB, COBOL
 ,JavaScript,CSS,PHP,,,SQL,,,C,Perl,,
 ,,,,,,SQL,C#,C++,C,,,
 ,,,PHP,,,,,C++,C,,,
@@ -1458,7 +1458,7 @@ Java,JavaScript,CSS,PHP,Python,Ruby,SQL,C#,,C,,,
 ,JavaScript,CSS,,Python,,SQL,C#,C++,C,,,
 ,,,,,,,C#,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,C#,,C,,,
-Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,"Groovy, ColdFusion"
+Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,Groovy, ColdFusion
 ,,,,,,SQL,C#,,,,,
 ,,,,,,SQL,C#,,,,,VB.NET
 ,,CSS,,,,,,,C,,,
@@ -1499,7 +1499,7 @@ Java,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"vb. technologies: asp.net, wpf, wcf"
+,JavaScript,CSS,,,,SQL,C#,,,,,vb. technologies: asp.net, wpf, wcf
 ,JavaScript,CSS,,,,SQL,,,,,,VB.NET
 Java,,,,,,SQL,C#,,,,,
 ,,,,,,SQL,,C++,C,,,
@@ -1509,7 +1509,7 @@ Java,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,,,C#,,,,,
 Java,JavaScript,CSS,PHP,Python,,SQL,C#,C++,C,Perl,,Assembler (x86 and win32)
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
-,,CSS,PHP,,,,,,,,,"JavaScript (incl. jQuery), HTML"
+,,CSS,PHP,,,,,,,,,JavaScript (incl. jQuery), HTML
 Java,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,,CSS,,,,SQL,,,,,,
 Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,ActionScript
@@ -1517,7 +1517,7 @@ Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,ActionScript
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,,,C++,,,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,C#,,,,,
-,,,,,Ruby,,,,,,,"bash, awk, sed, linc 4gl"
+,,,,,Ruby,,,,,,,bash, awk, sed, linc 4gl
 Java,JavaScript,,,,,SQL,C#,,C,,,VB6
 ,JavaScript,,,,,,C#,,,,,
 ,,CSS,,,,,C#,,,,,
@@ -1544,11 +1544,11 @@ Java,JavaScript,CSS,PHP,,,SQL,C#,,,Perl,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-,,,,,,SQL,,,,,,"Coldfusion, Sybase Powerbuilder"
+,,,,,,SQL,,,,,,Coldfusion, Sybase Powerbuilder
 ,,,,,,,,C++,C,,,ARM assembly
 ,,,,,,,,,,,,
 ,JavaScript,CSS,,,,SQL,,,,,,classic asp (vbscript)
-,JavaScript,CSS,PHP,,,,,,,,,"xhtml, html"
+,JavaScript,CSS,PHP,,,,,,,,,xhtml, html
 Java,,,,Python,,SQL,C#,C++,C,Perl,,
 Java,JavaScript,CSS,,,,SQL,,,,,,
 ,,,,,,,C#,C++,C,,,
@@ -1603,7 +1603,7 @@ Java,,,,,,,C#,C++,,,,
 Java,JavaScript,CSS,,,,SQL,C#,,,,,XAML
 Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,C,Perl,,
-Java,JavaScript,CSS,,,,SQL,,,,,,"Groovy, Grails"
+Java,JavaScript,CSS,,,,SQL,,,,,,Groovy, Grails
 Java,JavaScript,CSS,,,,,,,,,,
 Java,JavaScript,CSS,PHP,,Ruby,SQL,,C++,C,,,
 ,,,,,,,,,,,,Delphi
@@ -1642,7 +1642,7 @@ Java,JavaScript,CSS,PHP,,Ruby,SQL,C#,,C,Perl,,ObjectiveC
 Java,,,,,,,C#,,C,,,
 Java,,,,Python,,,,C++,C,,,R
 ,JavaScript,,,,Ruby,,,,,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"vb.net, actionscript"
+,JavaScript,CSS,,,,SQL,C#,,,,,vb.net, actionscript
 Java,,,,,,,,,,,,
 Java,JavaScript,CSS,,Python,,,C#,,,,,AutoHotkey
 ,,,,,,SQL,C#,,,,,
@@ -1667,7 +1667,7 @@ Java,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,,C#,,,,,VB.NET
 ,,,,,,,,,,,,
 Java,JavaScript,CSS,,,,SQL,C#,,,,,
-,JavaScript,CSS,,,,SQL,C#,C++,C,,,"Matlab, AWK, ..."
+,JavaScript,CSS,,,,SQL,C#,C++,C,,,Matlab, AWK, ...
 ,JavaScript,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,C++,,,,
 Java,,,,Python,,,C#,,,,,
@@ -1687,7 +1687,7 @@ Java,JavaScript,CSS,,,,SQL,,,,,,
 Java,JavaScript,CSS,PHP,Python,Ruby,SQL,,,,,,flex
 Java,,,,,,SQL,,,,,,
 ,JavaScript,CSS,,Python,,SQL,C#,,,,,
-,,,,,Ruby,SQL,,C++,C,Perl,,"make, OCaml"
+,,,,,Ruby,SQL,,C++,C,Perl,,make, OCaml
 ,,,,Python,,,,C++,,,,Delphi
 Java,JavaScript,CSS,,,,SQL,C#,,,,,anything
 ,,,,,,SQL,C#,,,,,Delphi
@@ -1726,7 +1726,7 @@ Java,,,,Python,,,,C++,,,,
 Java,JavaScript,,,Python,,,,,,,,
 Java,,,,Python,,SQL,,,,,,
 ,,,,,,,C#,C++,,,,
-Java,,,,Python,,SQL,C#,C++,C,,,"Assembly, VB"
+Java,,,,Python,,SQL,C#,C++,C,,,Assembly, VB
 Java,JavaScript,CSS,PHP,Python,,,C#,,C,,,
 ,,,,,,,C#,C++,,,,
 ,,,,,,,,C++,C,Perl,,
@@ -1769,7 +1769,7 @@ Java,,,PHP,Python,,SQL,C#,C++,C,,,
 ,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,,,,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,,C++,C,,,
-,,,,,,SQL,C#,,,,,"VB.NET, VB6"
+,,,,,,SQL,C#,,,,,VB.NET, VB6
 ,,,,,,,C#,,,,,
 Java,,,PHP,,,SQL,C#,,,,,
 ,,,,,,,,C++,C,Perl,,
@@ -1777,11 +1777,11 @@ Java,,,PHP,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,C++,C,,,
-Java,,,,,,SQL,,C++,C,,,"LabVIEW, VB.NET"
+Java,,,,,,SQL,,C++,C,,,LabVIEW, VB.NET
 Java,JavaScript,,PHP,,,SQL,C#,,C,Perl,,Delphi
 ,,,,Python,Ruby,,C#,C++,C,,,
 ,,CSS,PHP,,,SQL,,,,,,
-Java,JavaScript,CSS,PHP,,,SQL,,C++,,,,"UniQuery, UniBasic"
+Java,JavaScript,CSS,PHP,,,SQL,,C++,,,,UniQuery, UniBasic
 Java,JavaScript,CSS,,Python,,SQL,,,,,,
 ,,,,,,,C#,,,,,
 ,,,PHP,,Ruby,,,,,,,
@@ -1806,7 +1806,7 @@ Java,,,,Python,,SQL,,C++,C,,,FORTRAN
 ,JavaScript,CSS,,,,SQL,C#,,C,,,
 ,,,,,,,,,,,,actionscript 3
 ,,,,,,,,,,,,
-,JavaScript,CSS,,Python,,SQL,C#,,,,,"F#, VB"
+,JavaScript,CSS,,Python,,SQL,C#,,,,,F#, VB
 ,,,,Python,Ruby,,,C++,C,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,C++,C,,,
 ,,,,,,,C#,C++,C,,,
@@ -1817,16 +1817,16 @@ Java,JavaScript,CSS,,Python,,SQL,C#,,,,,
 ,JavaScript,CSS,,Python,Ruby,,,,C,,,Objective-C
 ,,,,,,,,,,,,
 ,JavaScript,,,Python,,SQL,,,C,,,Objective-C
-,JavaScript,CSS,,,,SQL,C#,,,,,"ActionScript, Flex"
-,,,,,,,,,,,,"cobol, rexx, fortran, bash"
+,JavaScript,CSS,,,,SQL,C#,,,,,ActionScript, Flex
+,,,,,,,,,,,,cobol, rexx, fortran, bash
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,SQL,C#,,,,,PowerShell
 Java,JavaScript,CSS,PHP,,,SQL,,C++,C,,,
 ,JavaScript,CSS,PHP,,,SQL,,,C,,,
-Java,,,,,,,,C++,C,,,"lua, objective-c"
+Java,,,,,,,,C++,C,,,lua, objective-c
 ,,,,,,SQL,C#,,,,,
-Java,JavaScript,CSS,PHP,,,SQL,,C++,C,Perl,,"ccScript, shell,"
-Java,JavaScript,CSS,,,,SQL,,,,,,"Objective-C, Ada"
+Java,JavaScript,CSS,PHP,,,SQL,,C++,C,Perl,,ccScript, shell,
+Java,JavaScript,CSS,,,,SQL,,,,,,Objective-C, Ada
 Java,,,,,,,,,C,,,
 ,,,,Python,,SQL,C#,C++,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -1842,11 +1842,11 @@ Java,JavaScript,CSS,PHP,Python,,,C#,,,,,
 Java,JavaScript,CSS,,,,,C#,,,,,
 ,JavaScript,CSS,,,Ruby,SQL,C#,,,,,
 Java,JavaScript,,,,,SQL,,C++,,Perl,,
-,JavaScript,CSS,,,,,,,,Perl,,"Powershell, vbscript"
+,JavaScript,CSS,,,,,,,,Perl,,Powershell, vbscript
 ,JavaScript,CSS,,Python,,,C#,,,,,
 ,JavaScript,CSS,,,,SQL,,,,,,ColdFusion
 Java,JavaScript,CSS,PHP,Python,,,,,,,,ActionScript
-,JavaScript,CSS,,,,SQL,C#,,,,,"VB, HTML"
+,JavaScript,CSS,,,,SQL,C#,,,,,VB, HTML
 Java,JavaScript,CSS,,,,,,,,,,
 ,,,,,,,C#,,,,,
 ,,,,,,,,,,,,Visual Basic
@@ -1858,7 +1858,7 @@ Java,JavaScript,CSS,PHP,,Ruby,SQL,C#,,C,,,
 Java,,,,,,,,,,,,
 ,,,,,,,C#,,,,,
 Java,,,,,,,,,,,,
-,,,,,Ruby,,,,,,,"Delphi, XSLT, Prolog"
+,,,,,Ruby,,,,,,,Delphi, XSLT, Prolog
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,ColdFusion
 ,,,,,,,C#,C++,C,,,
 Java,,CSS,,Python,Ruby,,,C++,,,,
@@ -1895,13 +1895,13 @@ Java,,,,,,SQL,,C++,C,,,
 ,JavaScript,CSS,,,,,C#,,,,,HTML
 Java,,,,,,,C#,C++,,Perl,,
 ,,,,Python,,SQL,C#,C++,C,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"ASP, Delphi"
+,JavaScript,CSS,,,,SQL,C#,,,,,ASP, Delphi
 ,JavaScript,CSS,,,Ruby,SQL,C#,,,,,
 Java,,,,,,,,,,,,
 ,,,PHP,,,SQL,C#,C++,C,,,
 Java,JavaScript,CSS,PHP,,,SQL,,C++,C,,,
 ,,,,,,,,,,Perl,,
-,,,,,,,,,,,,"VHDL, Verilog"
+,,,,,,,,,,,,VHDL, Verilog
 ,JavaScript,,,,,,,,,Perl,,XPATH XSLT
 Java,JavaScript,CSS,,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -1914,7 +1914,7 @@ Java,,,,,,,C#,C++,C,,,
 Java,JavaScript,CSS,PHP,Python,,SQL,,,,,,
 Java,,,,,,,,C++,,,,
 ,,,,,,,,,,,,
-Java,,CSS,,,,SQL,,C++,C,,,"Object Pascal, Prolog"
+Java,,CSS,,,,SQL,,C++,C,,,Object Pascal, Prolog
 ,,,,,,,,,,,,
 Java,JavaScript,CSS,,,,SQL,,,,,,
 ,,,,,,,,,,,,
@@ -1985,7 +1985,7 @@ Java,,,,Python,,,,C++,C,,,
 ,JavaScript,CSS,,Python,Ruby,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,,,,,,
 Java,JavaScript,CSS,PHP,,Ruby,SQL,,C++,C,,,
-Java,JavaScript,,,Python,,,C#,,,,,"VB.Net, F#"
+Java,JavaScript,,,Python,,,C#,,,,,VB.Net, F#
 Java,JavaScript,CSS,PHP,,,SQL,,,,Perl,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,,,,,,,,C++,,,,
@@ -2062,8 +2062,8 @@ Java,,,,,,,C#,C++,C,,,ActionScript
 Java,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,,,,,,Perl,,
-,,,,,,,C#,,,,,"VB.NET, VB6"
-Java,JavaScript,CSS,,Python,Ruby,SQL,C#,C++,C,,,"Scheme, VB.Net, VB, VBA, VBScript, PowerShell, F#"
+,,,,,,,C#,,,,,VB.NET, VB6
+Java,JavaScript,CSS,,Python,Ruby,SQL,C#,C++,C,,,Scheme, VB.Net, VB, VBA, VBScript, PowerShell, F#
 ,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -2077,7 +2077,7 @@ Java,,,,,,,,,,,,Scala
 ,,,,,Ruby,,C#,,,,,
 ,JavaScript,,,,,,C#,C++,C,,,
 Java,JavaScript,,,,,SQL,,,,,,
-,,,,Python,Ruby,SQL,,,C,,,"IDL, MatLab, NumPy"
+,,,,Python,Ruby,SQL,,,C,,,IDL, MatLab, NumPy
 Java,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,,CSS,,,,SQL,C#,C++,C,,,
 Java,,,PHP,Python,,,,C++,C,,,
@@ -2110,7 +2110,7 @@ Java,JavaScript,CSS,,Python,,SQL,,,,,,
 ,,,,Python,,,,C++,C,Perl,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,,,SQL,,,,,,VB.Net
-,,,,,,,C#,C++,C,,,"SAS Datastep, JMP Scripting Language"
+,,,,,,,C#,C++,C,,,SAS Datastep, JMP Scripting Language
 ,JavaScript,CSS,,Python,,SQL,,C++,C,,,
 Java,,,,Python,,SQL,C#,,,,,Delphi
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -2160,7 +2160,7 @@ Java,,,PHP,,,SQL,,C++,C,,,
 Java,,CSS,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,C,,,
-,,,,,,,C#,,,,,"Smalltalk, VBScript"
+,,,,,,,C#,,,,,Smalltalk, VBScript
 ,,,,,,SQL,C#,C++,C,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -2211,7 +2211,7 @@ Java,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 Java,,,,Python,,SQL,C#,,,,,gosu
 ,,,,,,SQL,C#,,,,,
-,JavaScript,CSS,PHP,,,SQL,C#,,,,,"VB .NET, ActionScript"
+,JavaScript,CSS,PHP,,,SQL,C#,,,,,VB .NET, ActionScript
 Java,,,,,,,C#,C++,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,,Python,,,,,,,,Haskell
@@ -2223,7 +2223,7 @@ Java,JavaScript,CSS,,,,SQL,,,C,Perl,,Scala
 ,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,,,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
-,,,PHP,,,SQL,,,,,,"Delphi, LabVIEW"
+,,,PHP,,,SQL,,,,,,Delphi, LabVIEW
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 Java,,,,,,,C#,C++,C,,,
 ,,,,,,,,C++,,Perl,,
@@ -2239,7 +2239,7 @@ Java,JavaScript,,,Python,,SQL,,,C,,,
 ,,,,,,,C#,C++,,,,
 ,,,,Python,,,C#,C++,C,,,
 ,,CSS,PHP,,,SQL,,,,,,JavaScript
-,JavaScript,CSS,,,,SQL,,,,,,"VB, COBOL"
+,JavaScript,CSS,,,,SQL,,,,,,VB, COBOL
 ,,,,,,SQL,C#,,,,,
 Java,,,,,,,,C++,C,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
@@ -2279,7 +2279,7 @@ Java,JavaScript,CSS,PHP,Python,,SQL,C#,C++,C,,,
 ,,,,,,SQL,C#,,,,,
 ,JavaScript,,,,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,,,,C#,,,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"XML, ActionScript"
+,JavaScript,CSS,,,,SQL,C#,,,,,XML, ActionScript
 ,,,,Python,,SQL,,C++,,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,,,,,,,,,
@@ -2295,7 +2295,7 @@ Java,JavaScript,CSS,,,Ruby,SQL,,,,,,
 ,JavaScript,,,,,SQL,C#,,,,,
 ,,,PHP,,Ruby,,C#,C++,C,,,
 ,JavaScript,CSS,,Python,Ruby,,C#,,C,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"RPG, LANSA"
+,JavaScript,CSS,,,,SQL,C#,,,,,RPG, LANSA
 Java,,,,Python,,,,C++,,,,
 ,JavaScript,CSS,,Python,Ruby,SQL,,C++,C,,,
 ,,,,,,SQL,C#,C++,C,,,
@@ -2305,7 +2305,7 @@ Java,JavaScript,CSS,,,Ruby,SQL,,,,,,
 Java,,,PHP,,,SQL,C#,,,,,
 ,JavaScript,,,,,,C#,,,,,vb.net
 Java,JavaScript,,,,,,,,C,Perl,,
-,,CSS,,Python,,SQL,C#,,,,,"XML, XSLT"
+,,CSS,,Python,,SQL,C#,,,,,XML, XSLT
 ,,,,,Ruby,,C#,,,,,
 ,,,,,,,,,,,,
 Java,,CSS,PHP,,,SQL,,,,Perl,,
@@ -2328,7 +2328,7 @@ Java,,,PHP,,,SQL,,,,,,
 Java,,,,,,SQL,C#,,,,,
 ,,,,,,,,,,,None,
 ,,CSS,PHP,,Ruby,SQL,C#,,,,,
-Java,JavaScript,,,,,,C#,C++,C,,,"Delphi, bash"
+Java,JavaScript,,,,,,C#,C++,C,,,Delphi, bash
 ,JavaScript,,,,,,C#,,,,,
 Java,,,,,,,,,,,,Bash
 ,,,,Python,,,,C++,,,,
@@ -2360,7 +2360,7 @@ Java,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,,,C,,,
 ,,,,,,,,,,,,
 ,,,,Python,Ruby,,,C++,C,,,shel scripting
-,,,,,,,C#,C++,,,,"Assembly, Delphi"
+,,,,,,,C#,C++,,,,Assembly, Delphi
 ,,,,,,SQL,C#,C++,C,,,
 ,JavaScript,,,Python,,,C#,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,,,,,,
@@ -2446,7 +2446,7 @@ Java,JavaScript,CSS,,Python,,SQL,C#,,,,,
 ,,,,,,,,,,,,
 Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,SQL,C#,C++,C,,,J
-,,,,,,,,C++,C,,,"MATLAB, IDL"
+,,,,,,,,C++,C,,,MATLAB, IDL
 ,JavaScript,CSS,PHP,,,,,,,,,HTML
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
@@ -2466,7 +2466,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,,,PHP,,,SQL,,,,,,
 ,,,,,,,C#,,C,,,
-,JavaScript,CSS,PHP,Python,,SQL,C#,,,,,"VB.NET, Vala, Java"
+,JavaScript,CSS,PHP,Python,,SQL,C#,,,,,VB.NET, Vala, Java
 ,,,,,,,,,,,,
 ,,,,,,SQL,C#,C++,,,,
 ,,,,,,,,,,,,
@@ -2482,12 +2482,12 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,SQL,,C++,C,Perl,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
-,JavaScript,CSS,,Python,,,C#,C++,,,,"Java, Prolog"
+,JavaScript,CSS,,Python,,,C#,C++,,,,Java, Prolog
 ,,,,,,,C#,,,,,java
 ,,CSS,,,Ruby,SQL,C#,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,,,,,,,,,
-,,,,,,SQL,C#,,C,,,"java, latex, powershell, asp.net"
+,,,,,,SQL,C#,,C,,,java, latex, powershell, asp.net
 ,JavaScript,CSS,,,,SQL,C#,C++,C,,,
 ,,CSS,PHP,,,SQL,,C++,C,,,Delphi
 ,JavaScript,CSS,,Python,,SQL,,,C,,,
@@ -2504,7 +2504,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,PHP,Python,,,,,C,,,Java
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
-,JavaScript,CSS,PHP,,,SQL,,,,Perl,,"Turbo Pascal 5.5 (no, seriously)"
+,JavaScript,CSS,PHP,,,SQL,,,,Perl,,Turbo Pascal 5.5 (no, seriously)
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,Perl,,
@@ -2516,7 +2516,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,,C#,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
-,,CSS,,,,SQL,,,,,,"Java, XSLT, Visual Basic .NET"
+,,CSS,,,,SQL,,,,,,Java, XSLT, Visual Basic .NET
 ,JavaScript,CSS,PHP,Python,,SQL,,,,,,
 ,,,,,,,,,C,,,Java
 ,JavaScript,,,,,,,,,,,
@@ -2553,7 +2553,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,SQL,C#,C++,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,php
-,JavaScript,CSS,,Python,Ruby,SQL,,,,,,"Java, AS1-3, Flex"
+,JavaScript,CSS,,Python,Ruby,SQL,,,,,,Java, AS1-3, Flex
 ,JavaScript,CSS,PHP,,,SQL,,,,,,Flash
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
@@ -2578,13 +2578,13 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
 ,,,,Python,,,,C++,C,,,
 ,JavaScript,CSS,,,,,,,,,,Java
-,,,,,,,,C++,,,,"Java, Mathematica"
+,,,,,,,,C++,,,,Java, Mathematica
 ,,,,,,,,,,,,
 ,,,PHP,,,,,,,,,Java
 ,JavaScript,CSS,,,,,C#,,,,,
 ,,,,,,SQL,,,,,,Java
 ,JavaScript,,,,,,,,,,,Java
-,JavaScript,CSS,,,,SQL,C#,,,,,"ASP, Visual Basic"
+,JavaScript,CSS,,,,SQL,C#,,,,,ASP, Visual Basic
 ,,CSS,PHP,,,SQL,C#,C++,,,,Common Lisp
 ,JavaScript,CSS,PHP,,,SQL,C#,C++,C,,,
 ,,,,,,,C#,C++,C,,,
@@ -2596,7 +2596,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,Ruby,,,,,,,
-,,CSS,PHP,,Ruby,SQL,,C++,C,Perl,,"LabVIEW, MatLab"
+,,CSS,PHP,,Ruby,SQL,,C++,C,Perl,,LabVIEW, MatLab
 ,JavaScript,CSS,PHP,,Ruby,SQL,C#,C++,,,,
 ,,,,,,,C#,C++,C,,,Java
 ,JavaScript,CSS,,,,,C#,,,,,
@@ -2607,7 +2607,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,C++,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,,Ruby,,,,,,,
-,,,,,,SQL,C#,,,,,"VB, VBA"
+,,,,,,SQL,C#,,,,,VB, VBA
 ,JavaScript,CSS,,Python,,,C#,C++,C,,,
 ,JavaScript,,PHP,Python,,SQL,,,,,,
 ,,,PHP,Python,,SQL,,C++,,,,
@@ -2625,13 +2625,13 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,,C++,,,,
-,JavaScript,CSS,,,Ruby,,,,C,,,"Common Lisp, Java"
+,JavaScript,CSS,,,Ruby,,,,C,,,Common Lisp, Java
 ,,,,,,,,,,,,Java
 ,,,,,,,C#,,,,,Java
 ,,,,,,,,,,,,cocoa
 ,JavaScript,CSS,PHP,,,SQL,,,,,,Java
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-,JavaScript,CSS,,,,SQL,,,,,,"Java, XSLT"
+,JavaScript,CSS,,,,SQL,,,,,,Java, XSLT
 ,JavaScript,CSS,,,Ruby,SQL,,,,,,VB.Net
 ,,,,,,,C#,C++,C,,,Java
 ,,,,,,SQL,,,,,,
@@ -2647,7 +2647,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,Ruby,SQL,C#,,,,,
 ,JavaScript,CSS,,,,,,,,,,
 ,,CSS,PHP,,,,C#,,,,,VB.NET
-,JavaScript,CSS,PHP,,,SQL,,,C,Perl,,"HTML, VB6"
+,JavaScript,CSS,PHP,,,SQL,,,C,Perl,,HTML, VB6
 ,JavaScript,CSS,PHP,Python,,SQL,,,,,,
 ,,,,,,,,,,,,Delphi
 ,JavaScript,,,,,,,,,,,Java
@@ -2660,9 +2660,9 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,C#,,,,,
 ,,,,,,,,,,,,
 ,,CSS,PHP,,,SQL,,,,,,
-,JavaScript,CSS,,,,,C#,,,,,"VB.NET, HTML"
+,JavaScript,CSS,,,,,C#,,,,,VB.NET, HTML
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"Java, asp.net"
+,JavaScript,CSS,,,,SQL,C#,,,,,Java, asp.net
 ,,,,,,,C#,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,C#,C++,C,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,C++,C,,,
@@ -2671,7 +2671,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,C#,,,,,
 ,JavaScript,CSS,PHP,,,,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,
-,JavaScript,CSS,PHP,,,SQL,,,C,,,"Java, Scheme"
+,JavaScript,CSS,PHP,,,SQL,,,C,,,Java, Scheme
 ,,,,,,,,,,,,
 ,,,,Python,,,,,,,,
 ,JavaScript,CSS,,,,,,,,,,
@@ -2680,18 +2680,18 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,,,,,.NET
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
-,JavaScript,CSS,,,,SQL,C#,,,,,"Java, ActionScript"
+,JavaScript,CSS,,,,SQL,C#,,,,,Java, ActionScript
 ,JavaScript,CSS,PHP,,,,,C++,C,,,
 ,,,,,,,,,,,,objective c
 ,,,,,,SQL,C#,,,,,
 ,JavaScript,CSS,,,,SQL,,C++,C,,,
-,JavaScript,,,Python,Ruby,SQL,C#,C++,C,,,"Realbasic, Objective-C"
+,JavaScript,,,Python,Ruby,SQL,C#,C++,C,,,Realbasic, Objective-C
 ,,,,,,,,,,,,Java
 ,JavaScript,CSS,,,,SQL,C#,C++,C,,,
 ,,CSS,PHP,,,SQL,,,,,,JAVA (shame on you for not having it on the list)
 ,,,,,,,,,,,,Java
 ,JavaScript,,,,,,C#,C++,,,,Java
-,JavaScript,CSS,,,,SQL,,,,,,"VB.net, Java"
+,JavaScript,CSS,,,,SQL,,,,,,VB.net, Java
 ,JavaScript,CSS,PHP,,,,,C++,C,,,objective-c
 ,JavaScript,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,,,,,,
@@ -2708,7 +2708,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,C++,,,,
 ,,,,,,,,C++,,,,Java
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
-,JavaScript,CSS,,,,,,,,Perl,,"scheme, haskell"
+,JavaScript,CSS,,,,,,,,Perl,,scheme, haskell
 ,JavaScript,CSS,PHP,Python,Ruby,SQL,,,,,,
 ,JavaScript,,,,,,,,,,,Java
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
@@ -2730,7 +2730,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,,,,,,,,Perl,,Objective-C
 ,,,,,,,,C++,,,,
 ,JavaScript,CSS,,,,SQL,C#,C++,,,,
-,JavaScript,CSS,,,,,C#,,,,,"Java, JSP, HTML"
+,JavaScript,CSS,,,,,C#,,,,,Java, JSP, HTML
 ,JavaScript,CSS,PHP,,,SQL,C#,C++,C,Perl,,Java
 ,,,,,,,,,,,,Java
 ,JavaScript,,,,,SQL,C#,,,,,
@@ -2738,7 +2738,7 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,C#,,,,,
 ,,,,,,,C#,,,,,
 ,JavaScript,CSS,,,Ruby,SQL,C#,,,,,
-,,,,,,,C#,C++,,,,"VB.NET, VB 6"
+,,,,,,,C#,C++,,,,VB.NET, VB 6
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,C#,,C,Perl,,
@@ -2762,9 +2762,9 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,,Python,,,,C++,C,,,
 ,,CSS,,,,SQL,C#,,,,,F#
-,,,,,,SQL,,,,,,"pl/sql, Java"
+,,,,,,SQL,,,,,,pl/sql, Java
 ,JavaScript,CSS,,,,SQL,C#,C++,,,,
-,JavaScript,CSS,PHP,Python,,SQL,C#,,C,Perl,,"Obj-c, java,"
+,JavaScript,CSS,PHP,Python,,SQL,C#,,C,Perl,,Obj-c, java,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,,C++,C,,,
 ,JavaScript,CSS,PHP,,Ruby,SQL,,C++,C,,,
@@ -2796,14 +2796,14 @@ Java,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,CSS,PHP,,,SQL,,,,,,
 ,JavaScript,,PHP,Python,,SQL,,,,,,Objective-C
 ,,,,,,SQL,C#,C++,,,,
-,JavaScript,CSS,PHP,,,,C#,,,,,"VB.NET, Avisynth, Shell"
+,JavaScript,CSS,PHP,,,,C#,,,,,VB.NET, Avisynth, Shell
 ,,,,,,,,,,,,
 ,,CSS,,,,SQL,C#,,,,,
 ,JavaScript,CSS,PHP,Python,,SQL,C#,,C,,,
 ,,,PHP,Python,,,,,C,,,
 ,JavaScript,CSS,PHP,Python,,SQL,,,,,,
 ,,,,,,,,,,,,
-,JavaScript,CSS,,,,,,,C,Perl,,"HTML, LaTeX"
+,JavaScript,CSS,,,,,,,C,Perl,,HTML, LaTeX
 ,JavaScript,CSS,PHP,,,SQL,,C++,,,,
 ,,,,,,,,,,,,
 ,JavaScript,CSS,,,,SQL,C#,C++,C,,,
