@@ -1,607 +1,617 @@
-2011,JavaScript,1420
-2011,Java,906
-2011,SQL,1613
-2011,C,741
-2011,Haskell,19
-2011,CSS,1356
-2011,PHP,788
-2011,C++,740
-2011,Perl,284
-2011,C#,1352
-2011,Python,575
-2011,VB,24
-2011,Ruby,286
-2011,Objective-C,60
-2011,VB.NET,33
-2011,vb.net,17
-2011,None,20
-2011,ActionScript,11
-2011,Delphi,44
-2011,VB.Net,11
-2011,bash,10
-2011,Lua,7
-2011,Lisp,6
-2011,ColdFusion,11
-2011,HTML,11
-2011,Scala,13
-2011,F#,10
-2011,Objective C,13
-2011,R,8
-2011,Groovy,9
-2012,Java,2348
-2012,JavaScript,3127
-2012,SQL,3294
-2012,C++,1526
-2012,C,1484
-2012,CSS,2824
-2012,PHP,1925
-2012,Objective-C,605
-2012,HTML5,2154
-2012,C#,2468
-2012,Python,1210
-2012,Perl,461
-2012,Ruby,577
-2012,VB.NET,31
-2012,Groovy,20
-2012,Delphi,52
-2012,R,15
-2012,Haskell,25
-2012,Matlab,11
-2012,Lua,12
-2012,ActionScript 3,7
-2012,VB,20
-2012,VBA,8
-2012,vb.net,16
-2012,Coldfusion,6
-2012,F#,13
-2012,scala,7
-2012,VB.net,6
-2012,Actionscript,6
-2012,MATLAB,6
-2012,groovy,6
-2012,VB.Net,10
-2012,bash,6
-2012,Visual Basic,14
-2012,ActionScript,16
-2012,ColdFusion,14
-2012,Scala,18
-2012,Powershell,6
-2012,PL/SQL,7
-2013,Java,3020
-2013,SQL,4594
-2013,C#,3027
-2013,JavaScript,4737
-2013,jQuery,4110
-2013,PHP,2328
-2013,Python,1881
-2013,C,1436
-2013,C++,1696
-2013,Objective-C,955
-2013,Node.js,599
-2013,Ruby,794
-2013,Lua,18
-2013,Actionscript,8
-2013,matlab,13
-2013,Delphi,65
-2013,PowerShell,8
-2013,PL/SQL,11
-2013,R,62
-2013,Scala,50
-2013,VB,23
-2013,bash,13
-2013,Perl,107
-2013,Clojure,17
-2013,CSS,7
-2013,vb.net,25
-2013,perl,26
-2013,Django,7
-2013,Matlab,20
-2013,Visual Basic,12
-2013,groovy,10
-2013,MATLAB,8
-2013,MongoDB,11
-2013,Haskell,29
-2013,VB.Net,15
-2013,Powershell,13
-2013,ColdFusion,19
-2013,VB.NET,62
-2013,Silverlight,6
-2013,GWT,6
-2013,HTML,12
-2013,ActionScript,11
-2013,Go,9
-2013,CoffeeScript,19
-2013,Groovy,23
-2013,SAS,7
-2013,ABAP,11
-2013,Erlang,12
-2013,MySQL,8
-2013,Bash,12
-2013,VB6,10
-2013,Fortran,6
-2013,delphi,6
-2013,Dojo,10
-2013,Mathematica,10
-2013,F#,17
-2013,VBA,21
-2013,Android,8
-2013,clojure,10
-2013,JQuery,240
-2013,mongodb,6
-2013,scala,11
-2013,"HTML, CSS",14
-2013,Flex,7
-2014,Java,2479
-2014,JavaScript,3783
-2014,PHP,1710
-2014,Python,1476
-2014,C#,2378
-2014,SQL,3468
-2014,C++,1418
-2014,C,1175
-2014,Powershell,8
-2014,perl,12
-2014,Node.js,641
-2014,Objective-C,675
-2014,VB.NET,39
-2014,Ruby,593
-2014,VB.Net,22
-2014,Scala,67
-2014,VB,13
-2014,R,47
-2014,bash,18
-2014,Perl,69
-2014,Haskell,31
-2014,Lua,15
-2014,MATLAB,12
-2014,F#,18
-2014,jQuery,12
-2014,VBA,25
-2014,CoffeeScript,7
-2014,Groovy,25
-2014,Delphi,36
-2014,Visual Basic,12
-2014,VB6,6
-2014,PowerShell,8
-2014,Clojure,13
-2014,Matlab,14
-2014,vb.net,18
-2014,Coldfusion,6
-2014,"HTML, CSS",6
-2014,Go,21
-2014,scala,13
-2014,AngularJS,6
-2014,Bash,7
-2014,Android,9
-2014,matlab,6
-2014,ColdFusion,13
-2014,PL/SQL,7
-2015,Java,8219
-2015,Scala,539
-2015,C#,6949
-2015,JavaScript,11962
-2015,LAMP,1926
-2015,Node.js,2919
-2015,PHP,6529
-2015,Python,5238
-2015,Redis,873
-2015,SQL,9439
-2015,lua,7
-2015,Go,463
-2015,SQL Server,4129
-2015,"Cloud (AWS, GAE, Azure, etc.)",1410
-2015,MongoDB,1746
-2015,Ruby,1765
-2015,Xamarin,8
-2015,iOS,1956
-2015,Objective-C,1719
-2015,X++,6
-2015,Sharepoint,349
-2015,Wordpress,2007
-2015,C,3612
-2015,C++,4529
-2015,C++11,1851
-2015,CoffeeScript,783
-2015,Clojure,176
-2015,Salesforce,154
-2015,Cordova,628
-2015,R,755
-2015,Swift,759
-2015,Hadoop,342
-2015,Visual Basic,1702
-2015,Perl,738
-2015,Groovy,72
-2015,Spark,104
-2015,EmberJS,12
-2015,Cassandra,202
-2015,Matlab,861
-2015,TypeScript,53
-2015,Powershell,21
-2015,Dart,109
-2015,Delphi,79
-2015,F#,174
-2015,Haskell,357
-2015,groovy,12
-2015,XSLT,6
-2015,Rust,103
-2015,Erlang,35
-2015,Elasticsearch,6
-2015,Django,16
-2015,ColdFusion,15
-2015,HTML,15
-2015,Lua,52
-2015,bash,29
-2015,Shell,7
-2015,PostgreSQL,6
-2015,D,12
-2015,MySQL,11
-2015,PL/SQL,18
-2015,Bash,42
-2015,"HTML, CSS",20
-2015,OCaml,10
-2015,Tcl,8
-2015,SAS,10
-2015,PowerShell,21
-2015,Fortran,35
-2015,VBA,16
-2015,Typescript,20
-2015,Drupal,15
-2015,Julia,10
-2015,VHDL,10
-2015,TCL,7
-2015,Ember.js,10
-2015,Meteor,7
-2015,Smalltalk,6
-2015,Prolog,6
-2015,ABAP,10
-2015,Assembly,8
-2015,Verilog,6
-2015,Scheme,6
-2015,Mathematica,9
-2015,ElasticSearch,6
-2015,Ada,6
-2015,Qt,6
-2015,ActionScript,11
-2015,Magento,8
-2015,ExtJS,9
-2015,CSS,6
-2015,React,11
-2015,Coldfusion,7
-2016,iOS,937
-2016, Objective-C,3065
-2016,Android,8601
-2016, Arduino / Raspberry Pi,1407
-2016, AngularJS,2149
-2016, C,3157
-2016, C++,6330
-2016, C#,7999
-2016, Cassandra,384
-2016, CoffeeScript,1139
-2016, Cordova,1493
-2016, Clojure,334
-2016," Cloud (AWS, GAE, Azure, etc.)",3604
-2016, Dart,177
-2016, F#,452
-2016, Go,1207
-2016, Hadoop,768
-2016, Haskell,674
-2016, iOS,3561
-2016, Java,13657
-2016, JavaScript,22606
-2016, LAMP,4575
-2016, Matlab,1485
-2016, MongoDB,4686
-2016, Node.js,8461
-2016, Perl,1489
-2016, PHP,12177
-2016, Python,11374
-2016, R,1499
-2016, ReactJS,2530
-2016, Redis,2850
-2016, Ruby,4196
-2016, Rust,433
-2016, Salesforce,614
-2016, Scala,1554
-2016, SharePoint,837
-2016, Spark,707
-2016, SQL,21664
-2016, SQL Server,9250
-2016, Swift,2707
-2016, Visual Basic,3237
-2016, Windows Phone,1118
-2016, WordPress,4444
-2016,JavaScript,4779
-2016,PHP,603
-2016,Arduino / Raspberry Pi,2390
-2016,C#,7284
-2016,Java,4285
-2016,SQL,312
-2016,Ruby,187
-2016,C,4521
-2016,LAMP,246
-2016,AngularJS,6674
-2016,C++,3259
-2016,"Cloud (AWS, GAE, Azure, etc.)",1025
-2016,Python,908
-2016,Perl,135
-2016,Haskell,139
-2016,Cassandra,279
-2016,CoffeeScript,523
-2016,Dart,45
-2016,Go,340
-2016,R,133
-2016,MongoDB,94
-2016,SharePoint,16
-2016,Cordova,158
-2016,Matlab,117
-2016,ReactJS,11
-2016,WordPress,52
-2016,F#,32
-2016,Clojure,222
-2016,Node.js,48
-2016,Objective-C,137
-2016,Scala,48
-2016,Redis,12
-2016,Hadoop,244
-2016,Swift,39
-2016,SQL Server,56
-2016,Visual Basic,75
-2016,Salesforce,51
-2017,Swift,72
-2017,JavaScript,5716
-2017, Python,10719
-2017, Ruby,3174
-2017, SQL,18466
-2017,Java,5902
-2017, PHP,9765
-2017,Matlab,133
-2017, R,1482
+2011,javascript,1420
+2011,java,912
+2011,sql,1613
+2011,c,741
+2011,haskell,19
+2011,css,1356
+2011,php,789
+2011,c++,740
+2011,perl,284
+2011,c#,1352
+2011,python,576
+2011,vb,30
+2011,matlab,7
+2011,ruby,286
+2011,objective-c,67
+2011,vba,6
+2011,vb.net,64
+2011,actionscript,12
+2011,coldfusion,17
+2011,none,20
+2011,delphi,48
+2011,scheme,6
+2011,html,13
+2011,objective c,17
+2011,bash,14
+2011,lua,10
+2011,lisp,10
+2011,scala,16
+2011,f#,13
+2011,r,8
+2011,groovy,12
+2011,fortran,7
+2011, actionscript,6
+2011,powershell,7
+2012,java,2348
+2012,javascript,3127
+2012,sql,3294
+2012,c++,1526
+2012,c,1484
+2012,css,2824
+2012,php,1925
+2012,objective-c,605
+2012,html5,2154
+2012,c#,2469
+2012,python,1211
+2012,perl,461
+2012,ruby,577
+2012,vb.net,66
+2012,asp.net,7
+2012,clojure,9
+2012,vb6,6
+2012,groovy,26
+2012,delphi,55
+2012,r,15
+2012,bash,11
+2012,haskell,30
+2012,matlab,18
+2012,lua,15
+2012,lisp,8
+2012,actionscript 3,8
+2012,vb,22
+2012,android,8
+2012,pl/sql,9
+2012,vba,9
+2012,coldfusion,24
+2012,f#,13
+2012,scala,25
+2012,actionscript,25
+2012,shell,6
+2012,visual basic,15
+2012,tcl,6
+2012,none,6
+2012,assembly,6
+2012,powershell,8
+2013,java,3020
+2013,sql,4594
+2013,c#,3027
+2013,javascript,4740
+2013,jquery,4352
+2013,php,2329
+2013,python,1882
+2013,c,1436
+2013,c++,1696
+2013,objective-c,955
+2013,node.js,599
+2013,ruby,794
+2013,lua,20
+2013,actionscript,21
+2013,matlab,41
+2013,delphi,71
+2013,powershell,23
+2013,angularjs,6
+2013,fortran,8
+2013,pl/sql,11
+2013,r,64
+2013,scala,62
+2013,mathematica,11
+2013,vb,27
+2013,bash,28
+2013,perl,136
+2013,extjs,7
+2013,clojure,28
+2013,css,9
+2013,vb.net,108
+2013,coffeescript,22
+2013,coldfusion,27
+2013,django,7
+2013,visual basic,12
+2013,groovy,33
+2013,mongodb,18
+2013,haskell,34
+2013,lisp,8
+2013,silverlight,7
+2013,gwt,6
+2013,html,14
+2013,go,12
+2013,sas,9
+2013,abap,13
+2013,erlang,17
+2013,mysql,10
+2013,dojo,11
+2013,grails,6
+2013,"html, css",16
+2013,vb6,13
+2013,assembler,6
+2013,asp.net,9
+2013,flex,11
+2013,f#,19
+2013,vba,24
+2013,android,8
+2013,shell,8
+2013,asp,7
+2013,cobol,6
+2014,java,2479
+2014,javascript,3783
+2014,php,1712
+2014,python,1476
+2014,c#,2378
+2014,sql,3468
+2014,c++,1418
+2014,c,1175
+2014,powershell,19
+2014,perl,83
+2014,node.js,641
+2014,objective-c,675
+2014,vb.net,87
+2014,ruby,593
+2014,scala,81
+2014,mysql,8
+2014,vb,15
+2014,r,47
+2014,bash,25
+2014,haskell,35
+2014,lua,19
+2014,matlab,32
+2014,f#,18
+2014,assembly,9
+2014,jquery,21
+2014,vba,27
+2014,coffeescript,12
+2014,groovy,29
+2014,delphi,40
+2014,vhdl,6
+2014,visual basic,12
+2014,vb6,7
+2014,mongodb,7
+2014,html,7
+2014,vbscript,6
+2014,clojure,15
+2014,coldfusion,19
+2014,erlang,7
+2014,"html, css",8
+2014,sas,6
+2014,go,22
+2014,angularjs,6
+2014,actionscript,7
+2014,android,11
+2014,pl/sql,8
+2014,asp.net,7
+2014,prolog,6
+2014,fortran,6
+2015,java,8219
+2015,scala,539
+2015,c#,6949
+2015,javascript,11963
+2015,lamp,1926
+2015,node.js,2919
+2015,php,6529
+2015,python,5238
+2015,redis,873
+2015,sql,9439
+2015,lua,63
+2015,go,463
+2015,sql server,4129
+2015,"cloud (aws, gae, azure, etc.)",1410
+2015,mongodb,1746
+2015,ruby,1765
+2015,xamarin,9
+2015,ios,1956
+2015,objective-c,1719
+2015,x++,7
+2015,sharepoint,349
+2015,wordpress,2007
+2015,c,3612
+2015,c++,4529
+2015,c++11,1851
+2015,coffeescript,783
+2015,clojure,176
+2015,salesforce,154
+2015,cordova,628
+2015,r,755
+2015,swift,760
+2015,hadoop,342
+2015,visual basic,1702
+2015,perl,738
+2015,groovy,85
+2015,spark,104
+2015,emberjs,14
+2015,cassandra,202
+2015,matlab,861
+2015,typescript,75
+2015,powershell,43
+2015,dart,109
+2015,delphi,81
+2015,f#,174
+2015,haskell,357
+2015,elasticsearch,16
+2015,xslt,11
+2015,rust,103
+2015,erlang,39
+2015,knockoutjs,8
+2015,django,18
+2015,coldfusion,23
+2015,lisp,8
+2015,html,21
+2015,bash,75
+2015,shell,11
+2015,ravendb,6
+2015,smalltalk,7
+2015,labview,6
+2015,mysql,15
+2015,postgresql,8
+2015,d,12
+2015,pl/sql,18
+2015,actionscript 3,9
+2015,"html, css",24
+2015,ocaml,12
+2015,jquery,10
+2015,none,7
+2015,tcl,16
+2015,sas,11
+2015,fortran,42
+2015,vba,17
+2015,drupal,15
+2015,julia,11
+2015,vhdl,10
+2015,ember.js,12
+2015,meteor,8
+2015,common lisp,7
+2015,cuda,6
+2015,assembly,12
+2015,prolog,7
+2015,abap,11
+2015,verilog,6
+2015,scheme,7
+2015,mathematica,9
+2015,ada,7
+2015,qt,6
+2015,actionscript,16
+2015,couchdb,6
+2015,magento,8
+2015,extjs,11
+2015,knockout,6
+2015,css,7
+2015,react,11
+2015,joomla,7
+2015,ember,6
+2015,unity3d,6
+2015,haxe,8
+2016,ios,937
+2016, objective-c,3065
+2016,android,8601
+2016, arduino / raspberry pi,1407
+2016, angularjs,2149
+2016, c,3157
+2016, c++,6330
+2016, c#,7999
+2016, cassandra,384
+2016, coffeescript,1139
+2016, cordova,1493
+2016, clojure,334
+2016," cloud (aws, gae, azure, etc.)",3604
+2016, dart,177
+2016, f#,452
+2016, go,1207
+2016, hadoop,768
+2016, haskell,674
+2016, ios,3561
+2016, java,13657
+2016, javascript,22606
+2016, lamp,4575
+2016, matlab,1485
+2016, mongodb,4686
+2016, node.js,8461
+2016, perl,1489
+2016, php,12177
+2016, python,11374
+2016, r,1499
+2016, reactjs,2530
+2016, redis,2850
+2016, ruby,4196
+2016, rust,433
+2016, salesforce,614
+2016, scala,1554
+2016, sharepoint,837
+2016, spark,707
+2016, sql,21664
+2016, sql server,9250
+2016, swift,2707
+2016, visual basic,3237
+2016, windows phone,1118
+2016, wordpress,4444
+2016,javascript,4779
+2016,php,603
+2016,arduino / raspberry pi,2390
+2016,c#,7284
+2016,java,4285
+2016,sql,312
+2016,ruby,187
+2016,c,4521
+2016,lamp,246
+2016,angularjs,6674
+2016,c++,3259
+2016,"cloud (aws, gae, azure, etc.)",1025
+2016,python,908
+2016,perl,135
+2016,haskell,139
+2016,cassandra,279
+2016,coffeescript,523
+2016,dart,45
+2016,go,340
+2016,r,133
+2016,mongodb,94
+2016,sharepoint,16
+2016,cordova,158
+2016,matlab,117
+2016,reactjs,11
+2016,wordpress,52
+2016,f#,32
+2016,clojure,222
+2016,node.js,48
+2016,objective-c,137
+2016,scala,48
+2016,redis,12
+2016,hadoop,244
+2016,swift,39
+2016,sql server,56
+2016,visual basic,75
+2016,salesforce,51
+2017,swift,72
+2017,javascript,5716
+2017, python,10719
+2017, ruby,3174
+2017, sql,18466
+2017,java,5902
+2017, php,9765
+2017,matlab,133
+2017, r,1482
 2017, ,14767
-2017, Rust,412
-2017,CoffeeScript,698
-2017, Clojure,214
-2017, Elixir,223
-2017, Erlang,232
-2017, Haskell,536
-2017, JavaScript,17159
-2017,C#,8596
-2017,Objective-C,305
-2017, Swift,2296
-2017,R,152
-2017,C,5563
-2017, C++,4628
-2017, Java,8622
-2017,Assembly,1823
-2017, C,1411
-2017, VB.NET,2240
-2017, Matlab,1436
-2017,Perl,135
-2017,PHP,525
-2017, Scala,1261
-2017, Objective-C,2044
-2017, F#,433
-2017, TypeScript,3479
-2017, Lua,1001
-2017, VBA,1546
-2017, Groovy,589
-2017,C++,3527
-2017, C#,3880
-2017, Perl,1450
-2017,Go,559
-2017,Elixir,157
-2017, Smalltalk,258
-2017, Visual Basic 6,1063
-2017, Go,998
-2017,Python,985
-2017, Common Lisp,225
-2017,VB.NET,33
-2017,Ruby,150
-2017,SQL,288
-2017,Common Lisp,48
-2017,Groovy,604
-2017, Dart,108
-2017, CoffeeScript,494
-2017,Scala,48
-2017,Erlang,49
-2017,Clojure,177
-2017, Julia,110
-2017,Haskell,113
-2017,Lua,38
-2017,Julia,28
-2017,Dart,37
-2017, Hack,85
-2017,VBA,28
-2017,Hack,22
-2017,Smalltalk,69
-2017,F#,24
-2017,Visual Basic 6,8
-2017,TypeScript,9
-2018,JavaScript,54686
-2018,Python,30359
-2018,HTML,53628
-2018,CSS,50979
-2018,Bash/Shell,31172
-2018,NA,20521
-2018,C#,26954
-2018,SQL,44670
-2018,TypeScript,13626
-2018,C,18042
-2018,C++,19872
-2018,Java,35521
-2018,Matlab,4564
-2018,R,4813
-2018,Assembly,5760
-2018,CoffeeScript,2603
-2018,Erlang,886
-2018,Go,5532
-2018,Lua,2733
-2018,Ruby,7911
-2018,PHP,24071
-2018,VB.NET,5254
-2018,Swift,6310
-2018,Groovy,3373
-2018,Kotlin,3508
-2018,Objective-C,5510
-2018,Scala,3420
-2018,F#,1115
-2018,Haskell,1961
-2018,Rust,1857
-2018,Julia,430
-2018,VBA,3810
-2018,Perl,3280
-2018,Cobol,590
-2018,Visual Basic 6,3087
-2018,Delphi/Object Pascal,2025
-2018,Hack,254
-2018,Clojure,1032
-2018,Ocaml,470
-2019,HTML/CSS,55466
-2019,Java,35917
-2019,JavaScript,59219
-2019,Python,36443
-2019,C++,20524
-2019,C,18017
-2019,C#,27097
-2019,SQL,47544
-2019,VBA,4781
-2019,R,5048
-2019,Bash/Shell/PowerShell,31991
-2019,Ruby,7331
-2019,Rust,2794
-2019,TypeScript,18523
-2019,WebAssembly,1015
-2019,Other(s):,7920
-2019,Go,7201
-2019,PHP,23030
-2019,Assembly,5833
-2019,Kotlin,5620
-2019,Swift,5744
-2019,NA,1314
-2019,Objective-C,4191
-2019,Elixir,1260
-2019,Erlang,777
-2019,Clojure,1254
-2019,F#,973
-2019,Scala,3309
-2019,Dart,1683
-2020,C#,18041
-2020,HTML/CSS,36181
-2020,JavaScript,38822
-2020,Swift,3397
-2020,Objective-C,2340
-2020,Python,25287
-2020,NA,7083
-2020,Ruby,4046
-2020,SQL,31413
-2020,Java,23074
-2020,PHP,15007
-2020,C,12487
-2020,TypeScript,14578
-2020,Bash/Shell/PowerShell,18980
-2020,Kotlin,4468
-2020,R,3288
-2020,VBA,3499
-2020,Perl,1796
-2020,Scala,2052
-2020,C++,13707
-2020,Go,5038
-2020,Haskell,1222
-2020,Rust,2929
-2020,Dart,2280
-2020,Julia,519
-2020,Assembly,3553
-2022,NA,2293
-2022,JavaScript,46443
-2022,TypeScript,24752
-2022,C#,19883
-2022,C++,16024
-2022,HTML/CSS,39142
-2022,Python,34155
-2022,SQL,35127
-2022,Swift,3489
-2022,Lua,2867
-2022,PHP,14827
-2022,C,13692
-2022,Java,23644
-2022,Delphi,2311
-2022,Bash/Shell,20656
-2022,PowerShell,8575
-2022,Rust,6625
-2022,Elixir,1528
-2022,Erlang,641
-2022,Ruby,4299
-2022,R,3308
-2022,Scala,1837
-2022,VBA,3185
-2022,Dart,4648
-2022,Go,7922
-2022,Kotlin,6507
-2022,Groovy,2357
-2022,MATLAB,2913
-2022,Perl,1644
-2022,Haskell,1577
-2022,Julia,1084
-2022,LISP,932
-2022,Assembly,3887
-2022,F#,730
-2022,Clojure,1070
-2022,APL,504
-2022,Crystal,340
-2022,Fortran,646
-2022,Objective-C,1698
-2022,SAS,435
-2022,OCaml,422
-2022,Solidity,1031
-2022,COBOL,464
-2023,NA,2044
-2023,HTML/CSS,46396
-2023,JavaScript,55711
-2023,Python,43158
-2023,Bash/Shell (all shells),28351
-2023,Go,11592
-2023,PHP,16274
-2023,Ruby,5454
-2023,SQL,42623
-2023,TypeScript,34041
-2023,Ada,677
-2023,Clojure,1105
-2023,Elixir,2028
-2023,Java,26757
-2023,Lisp,1342
-2023,OCaml,614
-2023,Raku,156
-2023,Scala,2422
-2023,Swift,4072
-2023,Zig,729
-2023,Rust,11427
-2023,C#,24193
-2023,PowerShell,11902
-2023,C++,19634
-2023,Kotlin,7935
-2023,Solidity,1168
-2023,C,16940
-2023,Perl,2151
-2023,Dart,5273
-2023,Haskell,1829
-2023,Assembly,4753
-2023,Delphi,2831
-2023,R,3702
-2023,Lua,5336
-2023,MATLAB,3339
-2023,VBA,3107
-2023,Visual Basic (.Net),3568
-2023,Julia,1010
-2023,F#,849
-2023,Groovy,2976
-2023,APL,225
-2023,Objective-C,2019
-2023,GDScript,1495
-2023,Crystal,389
-2023,Cobol,576
-2023,Fortran,833
-2023,Prolog,776
-2023,Erlang,868
-2023,Apex,579
-2023,SAS,427
-2023,Nim,331
-2023,Flow,214
+2017, rust,412
+2017,coffeescript,698
+2017, clojure,214
+2017, elixir,223
+2017, erlang,232
+2017, haskell,536
+2017, javascript,17159
+2017,c#,8596
+2017,objective-c,305
+2017, swift,2296
+2017,r,152
+2017,c,5563
+2017, c++,4628
+2017, java,8622
+2017,assembly,1823
+2017, c,1411
+2017, vb.net,2240
+2017, matlab,1436
+2017,perl,135
+2017,php,525
+2017, scala,1261
+2017, objective-c,2044
+2017, f#,433
+2017, typescript,3479
+2017, lua,1001
+2017, vba,1546
+2017, groovy,589
+2017,c++,3527
+2017, c#,3880
+2017, perl,1450
+2017,go,559
+2017,elixir,157
+2017, smalltalk,258
+2017, visual basic 6,1063
+2017, go,998
+2017,python,985
+2017, common lisp,225
+2017,vb.net,33
+2017,ruby,150
+2017,sql,288
+2017,common lisp,48
+2017,groovy,604
+2017, dart,108
+2017, coffeescript,494
+2017,scala,48
+2017,erlang,49
+2017,clojure,177
+2017, julia,110
+2017,haskell,113
+2017,lua,38
+2017,julia,28
+2017,dart,37
+2017, hack,85
+2017,vba,28
+2017,hack,22
+2017,smalltalk,69
+2017,f#,24
+2017,visual basic 6,8
+2017,typescript,9
+2018,javascript,54686
+2018,python,30359
+2018,html,53628
+2018,css,50979
+2018,bash/shell,31172
+2018,na,20521
+2018,c#,26954
+2018,sql,44670
+2018,typescript,13626
+2018,c,18042
+2018,c++,19872
+2018,java,35521
+2018,matlab,4564
+2018,r,4813
+2018,assembly,5760
+2018,coffeescript,2603
+2018,erlang,886
+2018,go,5532
+2018,lua,2733
+2018,ruby,7911
+2018,php,24071
+2018,vb.net,5254
+2018,swift,6310
+2018,groovy,3373
+2018,kotlin,3508
+2018,objective-c,5510
+2018,scala,3420
+2018,f#,1115
+2018,haskell,1961
+2018,rust,1857
+2018,julia,430
+2018,vba,3810
+2018,perl,3280
+2018,cobol,590
+2018,visual basic 6,3087
+2018,delphi/object pascal,2025
+2018,hack,254
+2018,clojure,1032
+2018,ocaml,470
+2019,html/css,55466
+2019,java,35917
+2019,javascript,59219
+2019,python,36443
+2019,c++,20524
+2019,c,18017
+2019,c#,27097
+2019,sql,47544
+2019,vba,4781
+2019,r,5048
+2019,bash/shell/powershell,31991
+2019,ruby,7331
+2019,rust,2794
+2019,typescript,18523
+2019,webassembly,1015
+2019,other(s):,7920
+2019,go,7201
+2019,php,23030
+2019,assembly,5833
+2019,kotlin,5620
+2019,swift,5744
+2019,na,1314
+2019,objective-c,4191
+2019,elixir,1260
+2019,erlang,777
+2019,clojure,1254
+2019,f#,973
+2019,scala,3309
+2019,dart,1683
+2020,c#,18041
+2020,html/css,36181
+2020,javascript,38822
+2020,swift,3397
+2020,objective-c,2340
+2020,python,25287
+2020,na,7083
+2020,ruby,4046
+2020,sql,31413
+2020,java,23074
+2020,php,15007
+2020,c,12487
+2020,typescript,14578
+2020,bash/shell/powershell,18980
+2020,kotlin,4468
+2020,r,3288
+2020,vba,3499
+2020,perl,1796
+2020,scala,2052
+2020,c++,13707
+2020,go,5038
+2020,haskell,1222
+2020,rust,2929
+2020,dart,2280
+2020,julia,519
+2020,assembly,3553
+2022,na,2293
+2022,javascript,46443
+2022,typescript,24752
+2022,c#,19883
+2022,c++,16024
+2022,html/css,39142
+2022,python,34155
+2022,sql,35127
+2022,swift,3489
+2022,lua,2867
+2022,php,14827
+2022,c,13692
+2022,java,23644
+2022,delphi,2311
+2022,bash/shell,20656
+2022,powershell,8575
+2022,rust,6625
+2022,elixir,1528
+2022,erlang,641
+2022,ruby,4299
+2022,r,3308
+2022,scala,1837
+2022,vba,3185
+2022,dart,4648
+2022,go,7922
+2022,kotlin,6507
+2022,groovy,2357
+2022,matlab,2913
+2022,perl,1644
+2022,haskell,1577
+2022,julia,1084
+2022,lisp,932
+2022,assembly,3887
+2022,f#,730
+2022,clojure,1070
+2022,apl,504
+2022,crystal,340
+2022,fortran,646
+2022,objective-c,1698
+2022,sas,435
+2022,ocaml,422
+2022,solidity,1031
+2022,cobol,464
+2023,na,2044
+2023,html/css,46396
+2023,javascript,55711
+2023,python,43158
+2023,bash/shell (all shells),28351
+2023,go,11592
+2023,php,16274
+2023,ruby,5454
+2023,sql,42623
+2023,typescript,34041
+2023,ada,677
+2023,clojure,1105
+2023,elixir,2028
+2023,java,26757
+2023,lisp,1342
+2023,ocaml,614
+2023,raku,156
+2023,scala,2422
+2023,swift,4072
+2023,zig,729
+2023,rust,11427
+2023,c#,24193
+2023,powershell,11902
+2023,c++,19634
+2023,kotlin,7935
+2023,solidity,1168
+2023,c,16940
+2023,perl,2151
+2023,dart,5273
+2023,haskell,1829
+2023,assembly,4753
+2023,delphi,2831
+2023,r,3702
+2023,lua,5336
+2023,matlab,3339
+2023,vba,3107
+2023,visual basic (.net),3568
+2023,julia,1010
+2023,f#,849
+2023,groovy,2976
+2023,apl,225
+2023,objective-c,2019
+2023,gdscript,1495
+2023,crystal,389
+2023,cobol,576
+2023,fortran,833
+2023,prolog,776
+2023,erlang,868
+2023,apex,579
+2023,sas,427
+2023,nim,331
+2023,flow,214

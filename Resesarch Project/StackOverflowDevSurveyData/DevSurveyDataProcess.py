@@ -16,10 +16,11 @@ for year in list(range(2011, 2021)) + [2022, 2023]:
             reader = csv.reader(file, delimiter=';')
         for row in reader:
             for value in row:
-                if value in d.keys():
-                    d[value] += 1
+                val = value.lower()
+                if val in d.keys():
+                    d[val] += 1
                 else:
-                    d[value] = 1
+                    d[val] = 1
     with open(writeData, mode='a', newline='') as dataFile:
         writer = csv.writer(dataFile)
         for i in d:
