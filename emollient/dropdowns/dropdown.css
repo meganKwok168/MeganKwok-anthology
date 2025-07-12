@@ -1,0 +1,56 @@
+.section{
+  background-color: #394032;
+  padding: 30px;
+  padding-top: 1px;
+}
+
+.title{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ingredientTab{
+  background-color: #394032;
+  color: white;
+  cursor: pointer;
+  padding: 18px 40px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 200px;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+
+}
+
+.active, .ingredientTab:hover {
+  background-color: #454f2d;
+}
+
+.panel{
+  padding: 0 18px;
+  background-color: none;
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.ingredientTab:after{
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.bulletPoint{
+  padding: 5px;
+}

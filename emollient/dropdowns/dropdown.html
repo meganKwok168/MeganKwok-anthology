@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdowns</title>
+</head>
+<body>
+
+<div class="section">
+    <link rel="stylesheet" href="dropdown.css">
+
+    <h1 class="title">Featured Ingredients</h1>
+    <!-- ingredient tabs -->
+     <div class="buttons">
+        <button  class="ingredientTab">Avocado Oil</button>
+        <div class="panel">
+            <ul>
+                <li class="bulletPoint">
+                    The antioxideants and fats found in the oil help to 
+                    modulate skin barrier mantenance, collagen metabolism,
+                    and wound healing.
+                </li>
+                <li class="bulletPoint">
+                    Heals flaky skin
+                </li>
+                <li class="bulletPoint">
+                    Anti-Inflammatory
+                </li>
+                <li class="bulletPoint">
+                    Helps skin stay smooth and strong, and improves elasticity
+                </li>
+            </ul>
+        </div>
+        &nbsp;
+        <button  class="ingredientTab">Calendula</button>
+        <div class="panel">
+            <ul>
+                <li class="bulletPoint">
+                    Antifungal, anti-inflammatory, and antibacterial properties
+                </li>
+                <li class="bulletPoint">
+                    Antiseptic
+                </li>
+                <li class="bulletPoint">
+                    Useful in healing wounds
+                </li>
+                <li class="bulletPoint">
+                    Increase collagen and elastin in the skin
+                </li>
+            </ul>
+        </div>
+        &nbsp;
+        <button  class="ingredientTab">Neem Oil</button>
+        <div class="panel">
+            <ul>
+                <li class="bulletPoint">
+                    Destroys free radicals and reduces oxidative stress,
+                    both of which drive the inflammatory process inconditions
+                    like eczema
+                </li>
+                <li class="bulletPoint">
+                    Contains rich lipids that treat dry and itchy skin
+                </li>
+            </ul>
+        </div>
+        &nbsp;
+        <button  class="ingredientTab">Jojoba</button> <!--NEEDS INFORMATION ++++++-->
+        <div class="panel">
+            <p>information</p>
+        </div>
+        &nbsp;
+        <button  class="ingredientTab">Chamomile</button>
+        <div class="panel">
+            <ul>
+                <li class="bulletPoint">
+                    Can soothe and calm eczema, inflammation, and skin infection
+                </li>
+            </ul>
+        </div>
+     </div>
+    
+</div>
+
+</body>
+
+
+<!-- script -->
+<script>
+var acc = document.getElementsByClassName("ingredientTab");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+
+    for (let j = 0; j < acc.length; j++){
+        if (acc[j] !== this){
+            acc[j].classList.remove("active");
+            let otherPanel = acc[j].nextElementSibling;
+            otherPanel.style.maxHeight = null;
+        }
+    }
+
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+</html>

@@ -1,0 +1,273 @@
+   .list {
+      display: flex;
+      gap: 30px;
+      padding: 16px;
+
+      list-style: none;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      margin: 0;
+
+        /* Hide scrollbar in Firefox */
+        scrollbar-width: none;
+
+        /* Hide scrollbar in IE and Edge */
+        -ms-overflow-style: none;
+    }
+
+    .list::-webkit-scrollbar {
+    display: none;
+    }
+
+    .item {
+      flex-shrink: 0;
+      min-width: 200px;
+      min-height: 200px;
+
+      background-color: #FFF;
+      border: none;
+      border-radius: 8px; 
+
+      scroll-snap-align: center;
+      position: relative;
+      overflow: hidden;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.3s ease;
+
+    }
+
+    .item img{
+        border-radius: 8px;
+    }
+
+    .item .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background: rgba(0,0,0,0.5);
+        color: white;
+        text-align: center;
+
+        display: flex;             
+        align-items: center;        /* Vertically center */
+        justify-content: center;    /* Horizontally center */
+
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        padding: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border-radius: 0 0 8px 8px;
+        max-height: 200px;
+    }
+
+    .item .description {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: max-height 0.5s ease, opacity 0.4s ease;
+      background: rgb(47, 47, 47);
+      color: white;
+      font-size: 14px;
+      font-family: 'Times New Roman', Times, serif;
+      width: 100%;
+      text-align: center;
+      padding: 0 10px; /* no vertical padding initially */
+      box-sizing: border-box;
+    }
+
+    .item:hover .description {
+      max-height: 200px; /* Enough space for content */
+      opacity: 1;
+      padding: 10px; /* adds vertical padding when shown */
+    }
+
+    .item:hover .overlay{
+        opacity: 1;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+
+      font-family: sans-serif;
+      font-size: 64px;
+      font-weight: bold;
+    }
+
+    .list-wrapper {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+  color: black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.button--previous {
+  left: -5px;
+}
+
+.button--next {
+  right: -5px;
+}
+
+
+.table-container {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: transparent;
+  border: white;
+}
+
+
+table,
+th,
+td,
+tr {
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+th, td {
+  border: white;
+  padding: 12px;
+  background: white;
+  text-align: center;
+  vertical-align: center;
+
+  /* Let sticky-col control its own width */
+  min-width: unset;
+  max-width: unset;
+}
+
+
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.table-container,
+.list-wrapper {
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .table-container {
+    overflow-x: visible;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sticky-col {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .list-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: visible;
+    scroll-snap-type: none;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .item {
+    min-width: 90%;
+    width: 90%;
+    height: auto;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .button {
+    display: none;
+  }
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Emollient</title>
+    <link rel="stylesheet" href="trial.css">
+</head>
+<body>
+
+<div class="table-container">
+<table>
+  <tr>
+    <td class="sticky-col"> <!--phrase-->
+      Natural<br>Ingredients
+    </td>
+    <td> <!--ingredients-->
+      <div class="list-wrapper">
+        <ul class="list">
+          <li class="item">
+            <div class="content">
+              <img src="shea.jpg" alt="">
+              <div class="overlay">Organic Shea</div>
+              <div class="learnMore">
+                
+              </div>
+            </div>
+          </li>
+
+          <li class="item"><div class="content"><img src="aloe.png" alt="">
+            <div class="overlay">Aloe Vera</div>
+          </div></li>
+
+          <li class="item"><div class="content"><img src="kokum.jpg" alt="">
+            <div class="overlay">Kokum Butter</div>
+          </div></li>
+
+          <li class="item"><div class="content"><img src="safflower.jpg" alt="">
+            <div class="overlay">Safflower Oil</div>
+          </div></li>
+
+          <li class="item"><div class="content"><img src="grape.jpg" alt="">
+            <div class="overlay">Grapeseed Oil</div>
+          </div></li>
+
+          <li class="item"><div class="content"><img src="beeswax.jpg" alt="">
+            <div class="overlay">Beeswax</div>
+          </div></li>
+
+
+        </ul>
+          <!-- We're calling `handleClick` with a direction argument when the buttons are clicked -->
+          <button onclick="handleClick('previous')" class="button button--previous" type="button"><span class="arrow">←</span></button>
+            <button onclick="handleClick('next')" class="button button--next" type="button"><span class="arrow">→</span></button>
+
+      </div>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+<script>
+  const list = document.querySelector(".list");
+
+  // We want to know the width of one of the items. We'll use this to decide how many pixels we want our carousel to scroll.
+  const item = document.querySelector(".item");
+  const itemWidth = item.offsetWidth;
+
+  function handleClick(direction) {
+    // Based on the direction we call `scrollBy` with the item width we got earlier
+    if(direction === "previous") {
+      list.scrollBy({ left: -itemWidth, behavior: "smooth" });
+    } else {
+      list.scrollBy({ left: itemWidth, behavior: "smooth" });
+    }
+  }
+</script>
+
+
+
+
+  
+</body>
+</html>
