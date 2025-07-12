@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients</title>
+</head>
+<body>
+    
+    <div class="section">
+
+        <link rel="stylesheet" href="ingredients.css">
+
+        <h1>Featured Ingredients</h1>
+
+        <table>
+            <tr>
+                <td> <!--featured ingredients-->
+                    <div class="list-wraper">
+                        <ul class="list">
+
+                            <!-- Avocado -->
+                            <li class="item">
+                                <div class="content"onclick="descript('Avocado')">
+                                    <img src="avocado.png" alt="" >
+                                    <div class="overlay" id="overlayAvocado">
+                                        <h1>
+                                        Avocado Oil
+                                        <br><br>
+                                        <span>Learn More</span>
+                                        </h1>
+                                        
+                                    </div>
+                                    <div class="learnMore" id="learnMoreAvocado" ">
+                                        <ul>
+                                            <li class="bulletPoint">
+                                                The antioxidants and fats found in the oil help to 
+                                                modulate skin barrier maintenance, collagen metabolism,
+                                                and wound healing.
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Heals flaky skin
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Anti-Inflammatory
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Helps skin stay smooth and strong, and improves elasticity
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Calendula -->
+                            <li class="item">
+                                <div class="content"onclick="descript('Calendula')">
+                                    <img src="calendula.png" alt="" >
+                                    <div class="overlay" id="overlayCalendula">
+                                        <h1>
+                                        Calendula
+                                        <br><br>
+                                        <span>Learn More</span>
+                                        </h1>
+                                        
+                                    </div>
+                                    <div class="learnMore" id="learnMoreCalendula" ">
+                                        <ul>
+                                            <li class="bulletPoint">
+                                                Antifungal, anti-inflammatory, and antibacterial properties
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Antiseptic
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Useful in healing wounds
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Increase collagen and elastin in the skin
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Neem Oil -->
+                            <li class="item">
+                                <div class="content"onclick="descript('Neem')">
+                                    <img src="neem.png" alt="" >
+                                    <div class="overlay" id="overlayNeem">
+                                        <h1>
+                                        Neem Oil
+                                        <br><br>
+                                        <span>Learn More</span>
+                                        </h1>
+                                        
+                                    </div>
+                                    <div class="learnMore" id="learnMoreNeem" ">
+                                        <ul>
+                                            <li class="bulletPoint">
+                                                Destroys free radicals and reduces oxidative stress,
+                                                both of which drive the inflammatory process inconditions
+                                                like eczema
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Contains rich lipids that treat dry and itchy skin
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <!-- Jojoba -->
+                            <li class="item">
+                                <div class="content"onclick="descript('Jojoba')">
+                                    <img src="jojoba.png" alt="" >
+                                    <div class="overlay" id="overlayJojoba">
+                                        <h1>
+                                        Jojoba
+                                        <br><br>
+                                        <span>Learn More</span>
+                                        </h1>
+                                        
+                                    </div>
+                                    <div class="learnMore" id="learnMoreJojoba" ">
+                                        <ul>
+                                            <li class="bulletPoint">
+                                                information
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <!-- Chamomile -->
+                            <li class="item">
+                                <div class="content"onclick="descript('Chamomile')">
+                                    <img src="chamomile.png" alt="" >
+                                    <div class="overlay" id="overlayChamomile">
+                                        <h1>
+                                        Chamomile
+                                        <br><br>
+                                        <span>Learn More</span>
+                                        </h1>
+                                        
+                                    </div>
+                                    <div class="learnMore" id="learnMoreChamomile" ">
+                                        <ul>
+                                            <li class="bulletPoint">
+                                                Can soothe and calm eczema, inflammation, and skin infection
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+
+<script>
+    // console.log("script loaded")
+
+    function descript(ingredient){
+        // console.log("clicked")
+
+        learnMore = document.getElementById(`learnMore${ingredient}`);
+        overlay = document.getElementById(`overlay${ingredient}`);
+        // console.log(learnMore.style.display);
+
+        if (getComputedStyle(learnMore).display === "none") {
+            overlay.style.display = "none";
+            learnMore.style.display = "flex";
+        // console.log("showing description");
+
+        } else {
+            learnMore.style.display = "none";
+            overlay.style.display = "flex";
+            // console.log("showing name");
+        }
+
+    // console.log("====================================")
+    }
+</script>
+
+
+</html>
