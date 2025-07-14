@@ -10,12 +10,13 @@
 
         <link rel="stylesheet" href="ingredients.css">
 
-        <h1>Featured Ingredients</h1>
+        <br>
+        <h1 class="sectionName">Featured Ingredients</h1>
 
         <table>
             <tr>
                 <td> <!--featured ingredients-->
-                    <div class="list-wraper">
+                    <div class="list-wrapper">
                         <ul class="list">
 
                             <!-- Avocado -->
@@ -157,6 +158,14 @@
 
                         </ul>
                     </div>
+
+                    <button onclick="handleClick('previous')" class="button button--previous" type="button">
+                        <span class="arrow">←</span>
+                    </button>
+                    <button onclick="handleClick('next')" class="button button--next" type="button">
+                        <span class="arrow">→</span>
+                    </button>
+                                
                 </td>
             </tr>
         </table>
@@ -168,26 +177,39 @@
 <script>
     // console.log("script loaded")
 
-    function descript(ingredient){
+  function descript(ingredient){
         // console.log("clicked")
 
-        learnMore = document.getElementById(`learnMore${ingredient}`);
-        overlay = document.getElementById(`overlay${ingredient}`);
-        // console.log(learnMore.style.display);
+    learnMore = document.getElementById(`learnMore${ingredient}`);
+    overlay = document.getElementById(`overlay${ingredient}`);
+    // console.log(learnMore.style.display);
 
-        if (getComputedStyle(learnMore).display === "none") {
-            overlay.style.display = "none";
-            learnMore.style.display = "flex";
-        // console.log("showing description");
-
-        } else {
-            learnMore.style.display = "none";
-            overlay.style.display = "flex";
-            // console.log("showing name");
-        }
+    if (getComputedStyle(learnMore).display === "none") {
+        overlay.style.display = "none";
+        learnMore.style.display = "flex";
+    // console.log("showing description");
+    } 
+    else {
+      learnMore.style.display = "none";
+      overlay.style.display = "flex";
+      // console.log("showing name");
+    }
 
     // console.log("====================================")
+  }
+
+  const list = document.querySelector(".list");
+  const item = document.querySelector(".item");
+  const itemWidth = item.offsetWidth;
+
+  function handleClick(direction) {
+    if (direction === "previous") {
+      list.scrollBy({ left: -itemWidth, behavior: "smooth" });
+    } else {
+      list.scrollBy({ left: itemWidth, behavior: "smooth" });
     }
+  }
+
 </script>
 
 
