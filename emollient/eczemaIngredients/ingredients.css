@@ -1,9 +1,9 @@
-.section {
+/* .section {
   position: relative;
   padding: 30px 0;
   max-width: 100%;
   overflow: hidden;
-}
+} */
 
 .sectionName {
   font-size: 30px;
@@ -15,29 +15,44 @@
   margin-bottom: 20px;
 }
 
-.list-wrapper {
+/* .list-wrapper {
   position: relative;
   overflow: hidden;
   padding: 0 50px; /* space for arrows */
+/* } */
+
+.section {
+  position: relative;
+  padding: 30px 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden; /* prevents outer scroll */
+}
+
+.list-wrapper {
+  cursor: grab;
+  user-select:none;
+  width: 100%;
+  overflow-x: auto; /* horizontal scroll only */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
+
+.list-wrapper:active{
+  cursor: grabbing;
 }
 
 .list {
   display: flex;
   gap: 30px;
-  overflow-x: auto;
+  padding: 10px 40px;
+  width: max-content;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  padding-bottom: 10px;
-  margin: 0;
-  list-style: none;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
 }
 
-.list::-webkit-scrollbar {
+/* .list::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .item {
   flex-shrink: 0;

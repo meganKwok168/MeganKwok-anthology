@@ -5,16 +5,12 @@
     <title>Ingredients</title>
 </head>
 <body>
-    
+    <h1 class="sectionName">Natural Ingredients</h1>
+
     <div class="section">
 
         <link rel="stylesheet" href="front.css">
-        <br>
-        <h1 class="sectionName">Natural Ingredients</h1>
-
-        <table>
-            <tr>
-                <td> <!--featured ingredients-->
+         <!--featured ingredients-->
                     <div class="list-wrapper">
                         <ul class="list">
 
@@ -95,7 +91,8 @@
                                     <div class="learnMore" id="learnMoreKokum" ">
                                         <ul>
                                             <li class="bulletPoint">
-                                                information
+                                                Helps restore skin elasticity, soothe dryness, and support
+                                                the skin's natural barrier without feeling greasy
                                             </li>
                                         </ul>
                                     </div>
@@ -201,21 +198,38 @@
                                 </div>
                             </li>
 
+                            <!-- Mango -->
+                            <li class="item">
+                                <div class="content"onclick="descript('Mango')">
+                                    <img src="mango.jpg" alt="" >
+                                    <div class="overlay" id="overlayMango">
+                                        <h1>
+                                        Mango Butter
+                                        <br><br>
+                                        <span>Learn More</span>
+                                        </h1>
+                                        
+                                    </div>
+                                    <div class="learnMore" id="learnMoreMango" ">
+                                        <ul>
+                                            <li class="bulletPoint">
+                                                Helps promotes cell regeneration
+                                            </li>
+                                            <li class="bulletPoint">
+                                                Reduce the appearance of scars
+                                            </li>
+                                            <li class="bulletPoint">
+                                                High in Vitamin C, an antioxidant that helps
+                                                protect your body from allergic responses
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
 
                         </ul>
                     </div>
-                    
-                    <button onclick="handleClick('previous')" class="button button--previous" type="button">
-                        <span class="arrow">←</span>
-                    </button>
-                    <button onclick="handleClick('next')" class="button button--next" type="button">
-                        <span class="arrow">→</span>
-                    </button>
-                    
-                </td>
-            </tr>
-        </table>
-
+                                
     </div>
 
 </body>
@@ -244,18 +258,6 @@
     // console.log("====================================")
   }
 
-
-  const list = document.querySelector(".list");
-  const item = document.querySelector(".item");
-  const itemWidth = item.offsetWidth;
-
-  function handleClick(direction) {
-    if (direction === "previous") {
-      list.scrollBy({ left: -itemWidth, behavior: "smooth" });
-    } else {
-      list.scrollBy({ left: itemWidth, behavior: "smooth" });
-    }
-  }
 
 </script>
 
