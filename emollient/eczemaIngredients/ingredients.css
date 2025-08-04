@@ -68,7 +68,8 @@
 }
 
 .item img {
-  width: 100%;
+  width: 50%;
+  /* height: 100%; */
   height: auto;
   border-radius: 15px;
   display: block;

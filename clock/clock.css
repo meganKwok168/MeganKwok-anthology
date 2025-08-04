@@ -1,18 +1,74 @@
+.wholeThing{
+    background-image: url('nyc.jpg');
+    background-size: cover;
+}
+
 .tableau{
     border: 1px solid black;
     background-color: pink;
-    width: 100%;
+    width: 30%;
 }
-
-/* .quart{
-    height: 50%;
-    width: 50%;
-    border: 1px solid black;
-} */
 
 .timeCell{
-    height: 50%;
-    width: 5%;
+    height: 50px;
     border: 1px solid black;
-
+    text-align: center;
+    padding-top: 20px;
 }
+
+.calTableau{
+    /* border: 1px solid black; */
+    width: 35%;
+    padding: 2%;
+}
+
+.calHead{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 40px;
+    font-style: italic;
+    color: pink;
+    background-color: rgba(66,34,43,0.9);
+    height: 60px;
+}
+
+.calWk{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 20px;
+    color: pink;
+    background-color: rgba(57, 57, 57, 0.7);
+    height: 30px;
+    width: 5%;
+}
+
+.calCell, .calCurrent, .calOther{
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    color: #edd7d6;
+    background-color: rgba(0,0,0,0.6);
+    font-size:20px;
+    width: 5%;
+}
+
+.calCurrent{
+    background-color: rgba(66, 34, 43, 0.9);
+    border: 3px solid pink;
+}
+
+.calOther{
+    background-color: rgba(57, 57, 57, 0.7);
+}
+
+.clock{
+    border: 3px solid pink;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: relative;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.6);
+}
+

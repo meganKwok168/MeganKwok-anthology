@@ -1,21 +1,19 @@
 /* Ingredients/Front Page Stylesheet - Final Fixed Version */
 .section {
   position: relative;
-  padding: 30px 0;
-  width: 100vw;
-  max-width: 100%;
-  overflow: flex;
+  padding: 30px;
+  width: 93%;
+  max-width: 93%;
+  overflow: hidden;
 }
 
 .sectionName {
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-style: italic;
   letter-spacing: 0.64px;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: -20px;
+  margin-bottom: -40px;
 }
 
 .list-wrapper {
@@ -40,8 +38,8 @@
 
 .item {
   flex: 0 0 auto;
-  width: 300px;
-  min-height: 300px;
+  width: 190px;
+  max-height: 200px;
   border-radius: 15px;
   scroll-snap-align: start;
   position: relative;
@@ -104,7 +102,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
@@ -116,43 +114,6 @@
   justify-content: center;
 }
 
-.learnMore ul {
-  padding-left: 20px;
-  margin: 0;
-  list-style-type: disc;
-}
-
-.bulletPoint {
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  border: none;
-  color: white;
-  padding: 15px;
-  font-size: 24px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button--previous {
-  left: 15px;
-}
-
-.button--next {
-  right: 15px;
-}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
