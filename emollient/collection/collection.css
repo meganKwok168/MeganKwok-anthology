@@ -42,5 +42,6 @@
 }
 
 .name:visited {
-    color: black;
+  text-decoration: none;
+  color: black;
 }

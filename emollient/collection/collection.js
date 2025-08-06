@@ -52,21 +52,18 @@ const products = [
 
 let st = "";
 
-for (let i = 0; i < products.length; i+=4){
-    st += `<tr class = "cell">`
-    for (let j = i; j<i+4 && j<products.length ; j++){
-        st+= `<td class="cell">    <!--${products[j].name}-->
-            <div class="imgs">
-                <a href=${products[j].link}>                    
-                    <img class="un" src=${products[j].imgUn} alt="">
-                    <img class="deux" src=${products[j].imgDeux} alt="">
-                </a>
-            </div>
-            <br>
-            <a class="name" href=${products[j].link}>${products[j].name}</a>
-        </td>`
-    }
-    st += `</tr>`
+for (let i = 0; i < products.length; i++) {
+    st += `
+    <div class="cell">
+        <div class="imgs">
+            <a href="${products[i].link}">                    
+                <img class="un" src="${products[i].imgUn}" alt="">
+                <img class="deux" src="${products[i].imgDeux}" alt="">
+            </a>
+        </div>
+        <br>
+        <a class="name" href="${products[i].link}">${products[i].name}</a>
+    </div>`;
 }
 
 document.getElementById("rest").innerHTML = st;

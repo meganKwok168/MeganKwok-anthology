@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Coder</title>
+</head>
+
+<style>
+    #rest {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1vw;
+    justify-items: center;
+    }
+
+    @media (min-width: 600px) {
+    #rest {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    }
+
+    @media (min-width: 992px) {
+    #rest {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    }
+
+    .cell {
+    text-align: center;
+    padding-bottom: 20px;
+    }
+
+
+    .imgs {
+    position: relative;
+    width: 14vw;
+    height: 14vw;
+    }
+
+    .un,
+    .deux {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    }
+
+    .deux {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    }
+
+    .imgs:hover .deux {
+    opacity: 1;
+    }
+
+
+    .heading{
+        text-align: center;
+    }
+
+    .name{
+        text-decoration: none;
+        color: black;
+    }
+
+    .name:visited {
+        color: black;
+    }
+
+    .grid{
+        width: 71vw;
+        border: 1px solid black;
+        background-color: white;
+    }
+
+    .container{
+        display: flex;
+        
+    }
+
+    .buttons{
+        height: 5vw;
+        display: flex;
+    }
+
+    .bouton{
+        flex: 1;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        cursor: pointer;
+        background-color: rgb(252,228,236);
+        color: #664242;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+        border: 1px solid #664242;
+        text-decoration: none;
+    }
+
+    .bouton:hover{
+        background-color: #664242;
+        color: rgb(252,228,236);
+    }
+
+    .right{
+        width: 25vw;
+        height: 43vw;
+        border: 20px solid #af8382;
+        background-color: rgb(252,228,236);
+        overflow: hidden;
+        
+    }
+
+    body{
+        background-color: #af8382;
+    }
+
+</style>
+
+<body>
+    
+    <div class="container">
+        <div class="grid">
+            <h1 class="heading" id="heading"></h1>
+            <div id="rest"></div>
+        </div>
+        <div class="right" id="right"></div>
+    </div>  
+    <div class="buttons" id="buttons"></div>
+
+</body>
+
+</html>
+<script src="collectionCoder.js"></script>
+
