@@ -3,7 +3,7 @@
 
 This project was written as a way for non-developers to easily change coded parts of the My Emollient shopify website: myemollient.com. 
 
-DO NOT click "Save as Default" unless you are ready to commit your changes to be saved.
+So far, the "Save Default" doesn't overwrite the code -- will have to use Node.js
 
 ### Start Page: ezCoder.html ==================================
 
