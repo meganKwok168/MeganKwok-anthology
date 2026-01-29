@@ -1,0 +1,15 @@
+Citations/Sources/References/Bibliography
+
+However you wish to view it, this file will list all sources you consulted in developing this project.
+
+* At minimum, each entry of an online source should have a hyperlink to it.
+* If lenghthy, provide specific page number or equivalent.
+* As long as you provide enough information for any of us to hunt down your sources, you will be fine.
+* This list should contain *at minimum* the sources you list on the last page of your slide deck.
+
+
+1) https://www.w3.org/WAI/WCAG22/quickref/
+2) https://www.sciencedirect.com/science/article/pii/S1877050923002673
+3) https://link.springer.com/chapter/10.1007/978-3-319-22629-3_16
+4) https://dl.acm.org/doi/full/10.1145/3763243
+5) https://www.ada.gov/resources/web-guidance/

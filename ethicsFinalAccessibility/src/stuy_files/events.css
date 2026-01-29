@@ -1,0 +1,1282 @@
+div.left {
+    float: left
+}
+
+div.right {
+    float: right
+}
+
+div.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0
+}
+
+.edit a {
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px 5px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    margin: 0;
+    text-decoration: none
+}
+
+.edit a:HOVER {
+    text-decoration: underline
+}
+
+div.pagenav {
+    font-weight: normal;
+    font-size: 11px;
+
+}
+
+div.pagenav a {
+    text-decoration: none
+}
+
+div.pagenav a:HOVER {
+    text-decoration: underline
+}
+
+span.anchor {
+    color: #4050aa;
+    cursor: pointer;
+    cursor: hand;
+    text-decoration: underline
+}
+
+span.anchor-active {
+    font-weight: bold;
+    color: #000
+}
+
+span.anchor:HOVER {
+    text-decoration: underline
+}
+
+#ui-datepicker-div {
+    display: none
+}
+
+#hidden {
+    display: none
+}
+
+.popup {
+    width: auto;
+    border-radius: 7px;
+    background: #FFF;
+    padding: 12px 12px
+}
+
+.popup ul {
+    padding-bottom: 12px
+}
+
+.popup h4 {
+    margin-top: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 9px;
+    margin-bottom: 11px
+}
+
+.popup h3 {
+    font-size: 12px
+}
+
+.popup p {
+    margin-top: 0;
+    padding-top: 0;
+    padding: 0 1px
+}
+
+.popup div {
+    padding: 0 1px
+}
+
+.popup span.close {
+    cursor: pointer;
+    cursor: hand;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    color: #777
+}
+
+.popup span.close:HOVER {
+    color: #000
+}
+
+.popup img {
+    border: 1px solid #EEE
+}
+
+.DatePickerNT div.layer {
+    z-index: 999
+}
+
+.pfpageTitle {
+    display: none
+}
+
+.pf .pfpageTitle {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-seri
+}
+
+#events-page.pf #infobar #curmonth {
+    position: absolute;
+    left: 15px
+}
+
+.btn {
+    font-size: 12px
+}
+
+.btn a {
+    position: relative
+}
+
+.btn span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: -6px;
+    left: 11px
+}
+
+.btnsmall img {
+    width: 40px;
+    height: 25px
+}
+
+#events-page {
+    line-height: 1;
+    padding-top: 3px
+}
+
+#events-page #calnav {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #999;
+    border-bottom: 0;
+    background: #efefef;
+    padding: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+#events-page #caltable table {
+    border: 1px solid #999;
+    table-layout: fixed;
+    border-radius: 10px;
+    border-collapse: collapse;
+    cursor: pointer
+}
+
+#events-page #caltable table tr td:HOVER {
+    background: #EEE
+}
+
+#events-page #caltable table tr td {
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 13px
+}
+
+#events-page #infobar {
+    margin: 10px 0 0 0;
+    padding-bottom: 15px;
+    padding-top: 0;
+    position: relative;
+    font-size: 14px
+}
+
+#events-page #infobar #calicon {
+    position: absolute;
+    top: 1px;
+    left: 130px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#events-page #infobar #sd-layer {
+    bottom: 5px !important
+}
+
+#events-page #infobar #nav {
+    border-radius: 5px;
+    position: absolute;
+    left: 10px
+}
+
+#events-page #infobar #nav a {
+    padding: 6px;
+    border: 1px solid #CCC;
+    text-decoration: none
+}
+
+#events-page #infobar #nav .DatePickerNT a {
+    border: 0;
+    padding: 0
+}
+
+#events-page #infobar #nav a.l {
+    border-right: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#events-page #infobar #nav a.r {
+    border-left: none;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+#events-page #infobar #nav a:HOVER {
+    background: #DDD;
+    cursor: pointer
+}
+
+#events-page #infobar #nav a img {
+    height: 12px;
+    vertical-align: middle
+}
+
+#events-page #infobar .calLink {
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+#events-page #infobar .calLink a {
+    text-decoration: none;
+    cursor: pointer
+}
+
+#events-page #infobar .calLink a:HOVER {
+    text-decoration: underline
+}
+
+#events-page #infobar .calLink a img {
+    vertical-align: bottom
+}
+
+#events-page #shareOptions {
+    font-size: 13px;
+    text-align: right;
+    margin-top: 20px;
+    gap: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#events-page .events-page-separator {
+    width: 2px;
+    height: 14px;
+    background: #bbb;
+}
+
+#events-page #shareOptions a {
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#events-page #shareOptions a img {
+    vertical-align: middle;
+    height: 18px;
+}
+
+#events-page #infobar #curmonth {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center
+}
+
+#events-page #events {
+    line-height: 1.5
+}
+
+#events-page fieldset #calselect {
+    max-width: 190px
+}
+
+#events-page #events .date {
+    width: 47px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 2px;
+    text-align: center
+}
+
+#events-page #events .event {
+    margin-bottom: 15px;
+    padding-left: 5px
+}
+
+#events-page #events .first {
+    border-top: 0;
+    padding-top: 0
+}
+
+#events-page #events .last {
+    margin-bottom: 0
+}
+
+#events-page #events span.dow {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Anonymous Pro";
+    padding-top: 3px
+}
+
+#events-page #events span.day {
+    font-size: 23px;
+    width: 17px
+}
+
+#events-page #events .event .title {
+    font-size: 14px
+}
+
+#events-page #events .event .title a {
+    text-decoration: none
+}
+
+#events-page #events .event .title a:HOVER {
+    text-decoration: underline
+}
+
+#events-page #events.v1 .dayeventwrap {
+    position: relative;
+    border-top: 1px solid #EEE
+}
+
+#events-page #events.v1 .dayInfoWrap {
+    padding: 4px;
+    margin-top: 9px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1;
+    width: 33px;
+    margin-left: 10px;
+    position: absolute
+}
+
+#events-page #events.v1 ul {
+    min-height: 40px;
+    padding-left: 52px;
+    margin-bottom: 0;
+    list-style: none;
+    list-style: none outside none
+}
+
+#events-page #events.v1 ul li {
+    margin-bottom: 16px
+}
+
+#events-page #events.v1 ul li div.img {
+    margin-top: 15px
+}
+
+#events-page #events.v1 .event .time {
+    width: 160px;
+    max-width: 160px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+#events-page #events.v1 .event .info {
+    max-width: 600px
+}
+
+#events-page #events.v1 .event span.calmarkwrap {
+    margin-left: 4px
+}
+
+#events-page #events.v1 .event span.location {
+    font-size: 12px;
+    color: #666;
+    font-style: italic
+}
+
+#events-page #events.v1 .event .desc {
+    font-size: 12px;
+    margin-top: 5px;
+    clear: both
+}
+
+#events-page #events.v1 .leftspace {
+    margin-left: 49px;
+    *margin-left: 0
+}
+
+#events-page #events.v1 .eventitem {
+    float: left
+}
+
+#events-page #events.v1 div#ttoday .dayInfoWrap {
+    border: 2px solid #a00000;
+    border-radius: 5px
+}
+
+#events-page #events.v2 ul {
+    list-style: none;
+    list-style: none outside none
+}
+
+#events-page #events.v2 .event {
+    font-size: 12px
+}
+
+#events-page #events.v2 .event .title {
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+#events-page #events.v2 .date, #events-page #events.v2 .event {
+    float: left
+}
+
+#events-page #events.v2 .date {
+    max-width: 35px;
+    margin-left: 10px;
+    line-height: 1.2
+}
+
+#events-page #events.v2 .event {
+    margin-left: 27px
+}
+
+#events-page #events.v2 .diffday {
+    margin-left: 20px;
+    margin-top: 2px
+}
+
+#events-page #events.v2 .event label {
+    font-weight: bold
+}
+
+#events-page #events.v2 .event .desc a {
+    font-weight: bold;
+    padding-left: 20px
+}
+
+#events-page #events.v2 .event div {
+    margin-bottom: 3px
+}
+
+#events-page #events.v2 .event .url a {
+    text-decoration: none
+}
+
+#events-page #events.v2 .event .url a:HOVER {
+    text-decoration: underline
+}
+
+#events-page #events.v2 .finaleventofday {
+    padding-bottom: 0
+}
+
+#events-page #events.v2 div#ttoday {
+    border: 2px solid #a00000;
+    border-radius: 5px
+}
+
+#events-page #events.v2 .today .diffday {
+    margin-left: 16px
+}
+
+#events-page #events.v2 .finaleventofday {
+    padding-bottom: 10px
+}
+
+#events-page #events .noevents {
+    text-align: center;
+    padding-top: 7px
+}
+
+#events-page #events .pushevent {
+    color: #999;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 5px
+}
+
+#events-page #sd-label {
+    display: none !important
+}
+
+#events-page.pf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+#events-page.pf #nav, #events-page.pf #calicon, #events-page.pf .calLink {
+    display: none
+}
+
+#events-page.pf a {
+    color: #000
+}
+
+#events-page #tableview {
+    width: 100%;
+    border-collapse: collapse
+}
+
+#events-page #tableview tr td, #events-page #tableview tr th {
+    border: 1px solid #EEE;
+    padding: 5px;
+    font-size: 13px;
+    text-align: left
+}
+
+#events-page #tableview tr td.date {
+    text-align: right;
+    max-width: 180px;
+    min-width: 100px
+}
+
+#events-page #tableview tr.diffmonth td {
+    background: #EEE;
+    font-weight: bold
+}
+
+#events-page #tableview tr.firstEventMonth td {
+    padding-top: 7px
+}
+
+#events-page #tableview tr th {
+    background: #DDD
+}
+
+#events-page div#infobar.stick {
+    height: 22px
+}
+
+#events-page div#infobar.stick #infobarwrap {
+    position: fixed;
+    top: 0;
+    background: #FFF;
+    z-index: 10;
+    margin-top: 0;
+    padding-top: 11px;
+    border-bottom: 2px solid #BBB;
+    height: 33px
+}
+
+#events-page div#infobar.stick #infobarwrap #nav, #events-page div#infobar.stick #infobarwrap #calicon {
+    top: 15px
+}
+
+#hp-events ul li div label {
+    font-weight: bold
+}
+
+#hp-events {
+    overflow: hidden
+}
+
+#hp-events ul li.event {
+    margin: 3px 0
+}
+
+#hp-events ul li.event div {
+    margin-bottom: 3px
+}
+
+#hp-events .v3 ul {
+    margin-top: 0;
+    margin-bottom: 3px
+}
+
+#hp-events .v3 .dayInfoWrap {
+    padding: 4px;
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center
+}
+
+#hp-events .v3 .dayInfoWrap span {
+    display: block
+}
+
+
+#hp-events .v3 ul {
+    min-height: 52px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    list-style: none;
+    list-style: none outside none
+}
+
+#hp-events .v3 ul li {
+    margin-bottom: 16px
+}
+
+#hp-events .v3 ul li div.img {
+    margin-top: 15px;
+    margin-bottom: 20px
+}
+
+#hp-events .v3 ul li div.img img {
+    width: 100%
+}
+
+#hp-events .hpeventlinks {
+    margin-left: 5px
+}
+
+#hp-events .hpeventlinks div a {
+    font-weight: bold
+}
+
+#calendar-page {
+    padding: 20px
+}
+
+@media (max-width: 576px) {
+    #calendar-page {
+        padding: 10px 0;
+    }
+}
+
+#calendar-page img {
+    border: 0
+}
+
+
+#calendar-page #top h1, #calendar-page #top h2 {
+    margin: 0
+}
+
+#calendar-page #calendar {
+    table-layout: fixed;
+}
+
+#calendar-page #calendar, #calendar-page #top {
+    /*min-width: 760px*/
+}
+
+#calendar-page #calendar table {
+    border-collapse: collapse
+}
+
+#calendar-page #calendar table tr td {
+    padding: 10px 8px;
+    overflow: hidden
+}
+
+
+
+#calendar-page #calendar table thead tr th {
+    background: #CCC;
+    border: 1px solid #FFF;
+    border-width: 0 1px 0 0;
+    padding: 7px;
+    font-size: 16px;
+}
+
+#calendar-page #calendar table span.dayLabel {
+    font-size: 17px;
+    padding: 1px
+}
+
+#calendar-page #calendar table .dayTitleInner {
+    padding-bottom: 4px
+}
+
+#calendar-page #calendar table .edEventInfo {
+    font-size: 12px
+}
+
+#calendar-page #calendar table .edEventInfo span.edEventLocPrint {
+    font-style: oblique;
+    display: none
+}
+
+#calendar-page #calendar table span.edEventDate {
+    font-weight: bold
+}
+
+#calendar-page #calendar table a {
+    font-size: 12px;
+    color: #000
+}
+
+#calendar-page #calendar table div.dayOutWrapper {
+    overflow: hidden;
+    position: relative;
+    zoom: 1
+}
+
+#calendar-page #calendar table div.dayInWrapper {
+    *width: auto
+}
+
+#calendar-page #calendar table tr td.prevMonth {
+    color: #545454
+}
+
+#calendar-page #calendar table tr td.prevMonth a {
+    color: #545454
+}
+
+#calendar-page #calendar table tr td.weekend {
+    background: #f8f8f8;
+}
+
+#calendar-page #calendar table tr td.prev a, #calendar-page #calendar table tr td.prev .edEventDate {
+    color: #545454
+}
+
+#calendar-page #calendar table tr td.today {
+    border: 3px solid #000
+}
+
+#calendar-page #calendar table tr td.today .dayLabel {
+    font-weight: bold
+}
+
+#calendar-page #calendar table tr td ul {
+    margin: 0;
+    padding-left: 2px;
+    list-style: none outside none;
+    margin-block: 1em;
+}
+
+#calendar-page #calendar table tr td ul li {
+    list-style: none;
+    list-style-type: none;
+    margin-left: 0
+}
+
+#calendar-page #top {
+    border-bottom: 1px solid #EEE;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#calendar-page  #calicon {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+#calendar-page #top #options {
+    /*position: absolute;
+    right: 12px;
+    top: 0;*/
+    font-size: 14px;
+    border: 1px solid #CCC;
+    padding: 4px 12px;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-radius: 3px
+}
+
+#calendar-page #top #nav {
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: stretch;
+}
+
+#calendar-page #top #nav a {
+    padding: 6px;
+    border: 1px solid #CCC;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#calendar-page #top #nav .DatePickerNT a {
+    border: 0;
+    padding: 0
+}
+
+#calendar-page #top #nav a.l {
+    border-right: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#calendar-page #top #nav a.r {
+    border-left: none;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+#calendar-page #top #nav a:HOVER {
+    background: #DDD;
+    cursor: pointer
+}
+
+#calendar-page #top #nav a img {
+    height: 12px;
+    vertical-align: middle
+}
+
+#calendar-page #top #curmonth {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#calendar-page .calname {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center
+}
+
+
+#calendar-page #sd-label {
+    display: none !important
+}
+
+#calendar-page .DatePickerNT div.arrow {
+    display: none !important
+}
+
+#calendar-page #top #sd-layer {
+    bottom: -130px !important;
+    left: 3px !important
+}
+
+#calendar-page .eventInfoDiv {
+    display: none
+}
+
+#calendar-page .eventInfoAnchor {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+#calendar-page .eventInfoAnchor:hover {
+    text-decoration: underline;
+}
+
+#calendar-page .DatePickerNT div.calendar table tr td {
+    padding: 7px 6px
+}
+
+#calendar-page img {
+    *border: 0
+}
+
+#calendar-page #top {
+    z-index: 1000
+}
+
+#calendar-page div.edEventInfo:HOVER {
+    background: #EEE
+}
+
+#calendar-page #bottom {
+    display: none
+}
+
+
+.qtip .eventInfoDiv {
+    font-size: 13px
+}
+
+.qtip .eventInfoDiv label {
+    font-weight: bold
+}
+
+.qtip .eventInfoDiv div {
+    padding: 5px 0;
+    color: #000
+}
+
+.qtip .eventInfoDiv .eiTitle {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    line-height: 1.2
+}
+
+.qtip .eiDate {
+    margin-top: 5px
+}
+
+.qtip .eventInfoDiv .eiWhere {
+    line-height: 1.4
+}
+
+.qtip .eventInfoDiv .eiDesc {
+    line-height: 1.2
+}
+
+@MEDIA print {
+    #calendar-page {
+        padding: 0
+    }
+
+    #calendar-page #top #nav, #calendar-page #top #calicon, #calendar-page #top #options {
+        display: none
+    }
+
+    #calendar-page #top {
+        height: 40px
+    }
+
+    #calendar-page #calendar table a {
+        text-decoration: none
+    }
+
+    #calendar-page #calendar table tr td.weekend {
+        border: 1px solid #EEE
+    }
+
+    #calendar-page #calendar table tr td.today {
+        border: 1px solid #000
+    }
+
+    #calendar-page #calendar table thead tr th {
+        border: 1px solid #EEE
+    }
+
+    #calendar-page #bottom {
+        display: block
+    }
+
+    #events-page #nav, #events-page #calicon, #events-page .calLink {
+        display: none
+    }
+
+    #calendar-page #top #curmonth {
+        left: 0 !important
+    }
+
+    #calendar-page #calendar table thead tr th {
+        font-size: 14px !important;
+        width: 14.2% !important
+    }
+
+    #calendar-page #calendar table span.dayLabel {
+        font-size: 14px !important
+    }
+
+    #calendar-page #calendar table .edEventInfo {
+        padding-bottom: 6px !important;
+        font-size: 12px !important
+    }
+
+    #calendar-page #calendar table .edEventInfo span.edEventLocPrint {
+        display: inline
+    }
+
+    #calendar-page #calendar table a {
+        font-size: 12px !important
+    }
+
+    #calendar-page #calendar {
+        height: auto !important
+    }
+
+    #calendar-page #calendar table div.dayOutWrapper {
+        width: auto !important
+    }
+
+    .qtip {
+        display: none !important
+    }
+}
+
+#event-page {
+    display: flex;
+    font-size: 14px;
+    gap: 1em;
+
+}
+
+#event-page .eventContent {
+    flex: 1;
+}
+
+@media (max-width: 700px) {
+    #event-page {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 700px) {
+    #event-page {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+}
+.itemImages {
+    width: min(350px, 100%);
+    margin-inline: auto;
+}
+
+.itemImages > div {
+    font-size: 0;
+    width: 100%;
+}
+
+
+#event-page .no-item {
+    text-align: center;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+#event-page label {
+    float: left;
+    font-weight: bold;
+    width: 80px
+}
+
+#event-page .eventDesc label {
+    display: block;
+    padding-bottom: 10px;
+    float: none
+}
+
+
+#event-page .eventTitle {
+    font-size: 20px;
+    font-weight: bold
+}
+
+#event-page .itemImages, #event-page .itemImages * {
+    box-sizing: border-box;
+}
+#event-page .itemImages .eventImage {
+    width: 100%;
+}
+
+#events-page #events.v1 ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#events-page #events.v1 div#ttoday .dayInfoWrap {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 550px) {
+
+    #events-page #infobar {
+        margin-top: 40px;
+    }
+
+    #events-page #infobar .calLink {
+        top: -40px;
+    }
+
+    #events-page #infobar #infobarwrap #curmonth {
+        font-size: clamp(19px, 4vw, 22px);
+        text-align: end;
+    }
+}
+
+@media (max-width: 350px ) {
+    #events-page #infobar {
+        margin-bottom: 40px;
+    }
+
+    #events-page #infobar #infobarwrap #nav {
+        left: calc(50% - 15px);
+        transform: translateX(-50%);
+        top: 40px;
+        white-space: nowrap;
+    }
+
+    #events-page #infobar #infobarwrap #curmonth {
+        text-align: center;
+    }
+
+    #events-page #infobar #infobarwrap #calicon {
+        top: 40px;
+        left: calc(50% + 45px);
+    }
+}
+
+#pageContentWrapper #hp-events {
+    margin-inline: auto;
+}
+
+#pageContentWrapper #hp-events .dayeventwrap {
+    background: rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+}
+
+#pageContentWrapper #hp-events .dayeventwrap .dayInfoWrap {
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    font-weight: bolder;
+}
+
+#pageContentWrapper #hp-events .dayeventwrap ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding: 8px;
+    margin-block: 0;
+}
+
+#pageContentWrapper #hp-events ul li:not(:last-of-type).event {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 700px) {
+    #events-page #events.v1 .dayeventwrap * {
+        box-sizing: border-box;
+    }
+    #events-page #events.v1 .dayeventwrap {
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        box-sizing: border-box;
+        padding: 12px 12px 4px 12px;
+    }
+    #events-page #events.v1 .dayeventwrap:last-child {
+        border-bottom: 1px solid #eee;;
+    }
+    #events-page #events.v1 .dayInfoWrap {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap: 8px;   
+        width: auto;
+        margin: 0;
+    }
+    #events-page #events span.day {
+        width: auto;
+        line-height: 0.8em;
+    }
+    #events-page #events.v1 ul {
+        padding-left: 0;
+        margin-top: 12px;
+    }
+    #events-page #events.v1 ul li {
+        /*border-bottom: 1px solid #f4f4f4;*/
+        padding-block: 8px;
+        margin-bottom: 0;
+        align-items: flex-start;
+    }
+    #events-page #events.v1 ul li:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    #events-page #events.v1 ul li:first-child {
+        padding-top: 0px;
+    }
+    #events-page #events.v1 ul li:hover {
+        background: #eee;
+    }
+    #events-page #events.v1 .event .time {
+        text-align: left;
+        white-space: nowrap;
+    }
+    #events-page #events.v1 .eventitem {
+        flex: 1;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #events-page #events.v1 ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+#event-page .events-social-media-buttons {
+    width: 100%;
+}
+
+#event-page .events-social-media-buttons.social-media-buttons-top {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#event-page .events-social-media-buttons.social-media-buttons-bottom {
+    text-align: right;
+}
+
+#event-page  .social-media-buttons {
+    display: flex;
+    gap: 0.5em;
+}
+
+#event-page .events-social-media-buttons.social-media-buttons-top .social-media-buttons { justify-content: flex-start; margin: 0;}
+#event-page .events-social-media-buttons.social-media-buttons-bottom .social-media-buttons { justify-content: flex-end; }
+
+#event-page .social-media-buttons .twitter-share-button,
+#event-page .social-media-buttons .facebook-share-button {
+    margin-right: 0;
+}
+
+
+#events-page .share-options, #calendar-page .share-options { font-size: 13px; text-align: right; display: flex; justify-content: flex-end; align-items: center; gap: 12px; width: fit-content; justify-self: right;}
+#events-page .share-options a, #calendar-page .share-options a {text-decoration: none; font-size: 12px; cursor: pointer; display: flex; align-items: center; gap: 6px; color: #000; }
+.share-options .events-page-separator { width: 2px; height: 14px; background: #bbb;}
+#events-page .share-options a img, #calendar-page .share-options a img { vertical-align: middle; height: 18px;}
