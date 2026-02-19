@@ -1,0 +1,4 @@
+removes all packages installed after a certain date
+grep "yyyy-mm-dd.*.install " /var/log/dpkg.log | awk '{ print $4 }' | cut -d: -f1 | xargs sudo apt-get --yes purge
+
+
