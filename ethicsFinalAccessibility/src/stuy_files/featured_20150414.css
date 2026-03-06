@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.HPFeaturedAlbums {
+	position: relative;
+}
+.HPFeaturedAlbums h2 {
+	padding: 0;
+	margin: 0;
+	height: 0px;
+	padding-top: 49px;
+	overflow: hidden;
+	background: url(/pics/featured_albums_header.png) no-repeat;
+	cursor: pointer;
+}
+
+.HPFeaturedAlbums.one h2 {
+	background: url(/pics/featured_album_header.png) no-repeat;
+}
+
+.HPFeaturedAlbums ul, .HPFeaturedAlbums li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+.HPFeaturedAlbums ul {
+	margin-top: 10px;
+	*margin-top: 22px;
+}
+
+.HPFeaturedAlbums li {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#BBBBBB, Strength=6, Direction=0),
+	         progid:DXImageTransform.Microsoft.Shadow(Color=#BBBBBB, Strength=6, Direction=90),
+	         progid:DXImageTransform.Microsoft.Shadow(Color=#BBBBBB, Strength=6, Direction=180),
+	         progid:DXImageTransform.Microsoft.Shadow(Color=#BBBBBB, Strength=6, Direction=270);
+	-ms-filter: "";
+	border: 10px solid #FFF;
+	margin: 0 auto 10px auto;
+	*margin-bottom: 4px;
+	background: #FFF;
+	zoom: 1;
+	overflow: hidden;
+/* 	_margin-bottom: -3px; */
+}
+
+.HPFeaturedAlbums li h3 {
+    background: url("/apps/pics/trans_bg.png") repeat scroll 0 0 transparent;
+    bottom: 0px;
+    left: 0;
+    _bottom: 0px;
+    _left: 0px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-shadow: 0 0 5px #000000;
+    width: 100%;
+}
+
+.HPFeaturedAlbums li h3 span {
+	color: #fff;
+	display: block;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 5px;
+}

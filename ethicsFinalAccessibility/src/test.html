@@ -1,0 +1,89 @@
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Document</title>
+    <style>
+        .bio-container{
+            display: flex;
+            gap: 5vw;
+            width: 60vw;
+            padding: 2vh 0;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        .bio-section{
+            flex: 1;
+            max-width: 45%;
+        }
+
+        .bio-section img{
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        #colorChangeButton{
+            display: block;
+            border: 2px solid black;
+            cursor: pointer;
+            margin: 20px auto;
+            width: 70px;
+            text-align: center;
+        }
+        #colorChangeButton:hover{
+            box-shadow: 2px 2px 5px gray
+        }
+        .heading{
+            font-size: 30px;
+            padding-left: 50px;
+        }
+    </style>
+
+    <!-- NO <HEADER> NOR <MAIN> ================================================== -->
+    <br>
+    <h1 style="text-align: center;">We are KWAM</h1> <!--MULTIPLE H1s ===========================================================-->
+
+    <h1 style="text-align: center;">us and our duckies</h1> <!--MULTIPLE H1s ===========================================================-->
+    <div class="bio-container">
+        <div class="bio-section">
+            <img src="vincentDuck.png" alt="Vincent's Duck Donald" >
+            <p>Hello, my name is Vincent and my duck's name is Donald. Due to an unfortunate turn of events in 1857, 
+            Donald was separated from his family at the tender age of 4, and was forced to survive as an outlaw 
+            in the Wild West. He specialized in train robberies by stealing each coal one by one out of the steam 
+            engine until the train had no more fuel, a process that took many weeks for one heist. His exploits 
+            became so legendary that a cartoon character and a United States president were both named after him. 
+            Now retired, Donald helps me with my CS homework, though I am unsure of his motivations for doing so. </p>
+        </div>
+        <div class="bio-section">
+            <img src="meganDuck.jpeg" alt="Megan's Duck Grey">
+            <p>
+                Hello, I’m Megan Kwok and this is Grey.  I adopted him back in June 2022 from a good friend in eighth grade,
+                and since then, he has been the sole recipient and co-solver of all my CS problems.
+            </p> 
+        </div>
+    </div>
+    <!--ONCLICK THAT IS SUPPOSED TO BE A BUTTON BUT ISN'T SPECIFIED AS ONE ============================= -->
+    <div id="colorChangeButton" onclick="changeColor();"> 
+        <p>click this!</p>
+    </div>
+    <!--THIS IS SUPPOSED TO BE A HEADING, BUT NO HEADING ROLE SPECIFIED ===================================-->
+    <span class="heading">our favorite class:</span> 
+    <p style="font-size: 28px; padding-left: 53px;">Ethics</p>
+    <footer>
+        <p style="text-decoration: underline;">How to reach us:</p>
+        <p>myspace.com/megankwok</p>
+        <p>myspace.com/vincentlam</p>           
+    </footer>
+
+       
+
+<script>
+    const colorChanger = document.getElementById('colorChangeButton');
+    const colorsList = ['LightCyan', 'LightBlue', 'LightGray', 'LightGreen', 'LightYellow', 'Pink', 'Lavender', 'Azure', 'WhiteSmoke', 'White']        
+
+    function changeColor(){
+        colorIndex = Math.floor(Math.random()*colorsList.length)
+        document.body.style.backgroundColor = colorsList[colorIndex]
+    }
+</script>
+</html>

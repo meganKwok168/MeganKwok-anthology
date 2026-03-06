@@ -1,0 +1,83 @@
+nav.en-nav ul li span.nav_icon { /* Created by the Java Class. Disabled. */
+    display: none;
+}
+
+:root {
+    --en-z-index-max: 2147483647;
+    --en-z-index-nav: 2147483630;
+}
+
+button.en-mobnav-button
+,button.en-nav-menu-hamburger-button
+,button.en-mobile-nav-close-button {
+    display: none;
+}
+
+nav.en-nav {
+    margin: 0;
+    padding: 0;
+    z-index: var(--en-z-index-nav);
+    line-height: normal;
+}
+
+nav.en-nav > div.en-mobile-nav-header {
+    display: none;
+}
+
+nav.en-nav > div.en-mobile-nav-footer {
+    display: none;
+}
+
+nav.en-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+nav.en-nav a {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+}
+
+nav.en-nav ul li {
+    position: relative;
+}
+
+nav.en-nav > ul > li ul {
+    display: none;
+    position: absolute;
+    z-index: var(--en-z-index-max);
+}
+
+nav.en-nav > ul > li:last-child ul {
+    right: 0;
+}
+
+nav.en-nav > ul > li ul a {
+    white-space: normal;
+    overflow-wrap: break-word;
+    min-width: 160px;
+    max-width: 280px;
+}
+
+nav.en-nav > ul li:hover > ul,
+nav.en-nav > ul li.over > ul {
+    display: block;
+}
+
+nav.en-nav > ul > li > ul > li ul {
+    padding: 0;
+    left: 100%;
+    top: -7px;
+}
