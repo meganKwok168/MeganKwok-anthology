@@ -3,3 +3,6 @@ grep "yyyy-mm-dd.*.install " /var/log/dpkg.log | awk '{ print $4 }' | cut -d: -f
 
 see what you installed recently 
 grep "install" /var/log/dpkg.log
+
+"unable to mount flashdrive, operation already pending" resolution:
+gsettings set org.gnome.desktop.media-handling automount false
