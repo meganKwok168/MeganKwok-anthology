@@ -31,7 +31,31 @@ $ mysql -u root -p
 # CRUD (Create, Read, Update, Delete)
 ** use table
 - create new records: $ INSERT INTO table_name (col1, col2, col3) VALUES (value1, value2, value3);
--  
+- read table:
+    + $ SELECT * FROM table_name; : * indicates that all columns should be retrieved 
+    + $ SELECT col1, col2 from table_name; : selects specific columns
+- update table: UPDATE table_name 
+            SET row1 = "text" WHERE factor = smth;
+- delete smth from table: DELETE FROM col1 where factor = smth;
+
+# CLAUSES
+- use DISTINCT clause to only return unique values: $ SELECT DISTINCT col1 FROM table_name
+- use GROUP BY clause to aggregate data (col0 | 2, col1 | 3, col2 | 5): $ SELECT col1, COUNT(*) FROM table_name GROUP BY col1;
+- use ORDER BY clause to sort reecords in query (ASC or DESC): $ SELECT * FROM table_name ORDER BY col1 ASC;
+- use HAVING clause to filter: $ SELECT col1, COUNT(*) FROM table_name GROUP BY col2 HAVING col2 LIKE 'text';
+
+
+# OPERATORS
+- LIKE operator: $ SELECT * FROM table_name WHERE col1 LIKE "regex"
+- OR: SELECT * FROM table_name WHERE col1 = "actualText1" AND col2 = "actualText2";
+- NOT: $ SELECT * FROM table_name WHERE NOT col1 LIKE "regex"
+- 
+
+
+
+
+
+
 
 
 
