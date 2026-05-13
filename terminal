@@ -6,3 +6,11 @@ grep "install" /var/log/dpkg.log
 
 "unable to mount flashdrive, operation already pending" resolution:
 gsettings set org.gnome.desktop.media-handling automount false
+
+
+pandocs (making md to pdf)
+$ sudo apt install pandoc
+$ pandoc input.md -o output.pdf -V geometry:top=.5in -V geometry:bottom=.5in -V geometry:left=.5in -V geometry:right=.5in
+$ sudo apt-get install texlive-latex-base
+$ sudo apt install texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+<code>$ pandoc input.md -o output.pdf -V geometry:top=.5in -V geometry:bottom=.5in -V geometry:left=.5in -V geometry:right=.5in</code>
