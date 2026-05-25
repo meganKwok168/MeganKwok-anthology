@@ -7,3 +7,4 @@ things to install when i get a new laptop/nuke a whole system
 5. vs code
 6. change terminal colors
 7. possibly itunes if i'm dual booting windows
+8. change time to military
