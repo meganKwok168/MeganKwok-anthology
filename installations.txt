@@ -1,7 +1,9 @@
 things to install when i get a new laptop/nuke a whole system
+** possibly boot linux
 1. firefox, and sync all the profiles
 2. git
 3. processing
 4. thunderbird
 5. vs code
-6. 
+6. change terminal colors
+7. possibly itunes if i'm dual booting windows
