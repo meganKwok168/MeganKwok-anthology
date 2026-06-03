@@ -11,6 +11,8 @@
 > ls
 > rm
 
+> docker build -t myimage .
+
 # Running a container
 - $ docker run [OPTIONS] IMAGE_NAME [COMMAND] [ARGUMENTS...]
 -  
