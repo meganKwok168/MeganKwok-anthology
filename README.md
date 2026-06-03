@@ -12,4 +12,5 @@ coding bat
 
 
 ====
-add in language learning into summer plan
+- add in language learning into summer plan
+- building/configuring docker containers
