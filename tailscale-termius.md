@@ -11,6 +11,7 @@
   * $ sudo service ssh start
   * $ sudo service ssh start 2>/dev/null (this adds to .bashrc)
   * $ sudo service ssh status (to check)
+  * $ sudo tailscale set --ssh (afterwards, you should go to tailscale, and look at ur tailnet, ad there should be an ssh tag)
 5. Set up an ssh client on your phone. E.g. https://termius.com/
   * when asked for ip: $ tailscale ip (on your home device = laptop)
 6. You can now ssh onto your personal device from your phone without having to worry about port forwarding.
