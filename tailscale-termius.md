@@ -1,6 +1,6 @@
 # connect your devices
 1. Set up tailscale on your home device(can be on WSL).
--- go to tailscale.com for instructions
+   * go to tailscale.com for instructions
 3. Set up tailscale on your phone.
 4. Verify the devices are on your tailscale.com admin page.
 5. Set up ssh server on your home device. (can be on WSL but must be on the same device as your tailscale device)
