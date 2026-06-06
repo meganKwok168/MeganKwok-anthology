@@ -49,10 +49,17 @@ sidecar ports --> specifies which ports can be used
 
 $ docker-compose up -d
 
+$ docker-compose down
+
 testing:
 in droplet
 $ ssh [env specified ssh_user]@localhost -p [env specified host_port]
+
 droplet isn't connected to tailnet, but u can ssh into that port using any other device connected to tailnet
+
+in tailnet connected device:
+$ ssh [env specified ssh user]@[box host name] -p [env specified host port]
+
 
 auth keys in .env
 generate auth key in tailscale settings --> keys, make reusable
