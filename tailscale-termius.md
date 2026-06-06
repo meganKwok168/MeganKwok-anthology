@@ -118,6 +118,10 @@ TS_AUTHKEY=tskey-auth-blahblahblah
 TS_STATE_DIR=/var/lib/tailscale
 
 
+# more notes
+- I made another box that's basically the duplicate of dockerBox1 as dockerBox2
+- because you have to access these dockerboxes through the other devices connected onto tailnet, you can access dockerBox2 after you ssh into dockerBox1
+- however, from the laptop already connected onto tailnet, you can just directly ssh into dockerBox2
 
 
 
