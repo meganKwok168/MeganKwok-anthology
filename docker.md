@@ -17,3 +17,4 @@
 - $ docker run [OPTIONS] IMAGE_NAME [COMMAND] [ARGUMENTS...]
 -  
 
+$ docker ps --> sees which containers are running
