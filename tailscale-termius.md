@@ -52,10 +52,10 @@ $ docker-compose up -d
 testing:
 in droplet
 $ ssh [env specified ssh_user]@localhost -p [env specified host_port]
+droplet isn't connected to tailnet, but u can ssh into that port using any other device connected to tailnet
 
-
-
-
+auth keys in .env
+generate auth key in tailscale settings --> keys, make reusable
 
 
 
