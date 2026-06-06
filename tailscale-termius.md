@@ -20,8 +20,44 @@
 Note: You have to use your data, not the school wifi for this
 - try when both devices are on same wifi, and then also when you put data on ur phone
 
-
-
-
-
 https://tailscale.com/docs/features/containers/docker
+
+
+
+
+
+
+
+docker-compose.yaml --> creates a bunch of docker containers
+----> kind of defines all the containers like a dictionary 
+----> then you do like a for loop through the containers when u do docker-compose up or down
+
+side-car --> specialized container that's like harry's seat on Hagrid' moto
+
+image --> settings of the container -- specifies what u want the container to be
+
+environment -->
+- PUID --> user id (root = 0, all the other users have an id that isn't 0) -- specifies who u are ssh-ing as (account ex: mkwok60, your permissions)
+- PGID --> group id
+
+
+tailscale --> adds devices to a network
+
+sidecar ports --> handles interaction of machines, can acc tlak to the other boxes
+box ports --> network is open to anyone
+sidecar ports --> specifies which ports can be used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
