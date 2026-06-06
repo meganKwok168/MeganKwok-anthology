@@ -49,7 +49,9 @@ sidecar ports --> specifies which ports can be used
 
 $ docker-compose up -d
 
-
+testing:
+in droplet
+$ ssh [env specified ssh_user]@localhost -p [env specified host_port]
 
 
 
