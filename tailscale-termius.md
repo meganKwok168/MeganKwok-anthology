@@ -65,7 +65,75 @@ auth keys in .env
 generate auth key in tailscale settings --> keys, make reusable
 
 
+docker-compose.yaml ============================================================================
+services:
+  tailscale1:
+    image:  tailscale/tailscale:latest
+    container_name: tailscale1
+    hostname: dockerBox1
+    env_file:
+      - .env
+    ports:
+      - "${HOST_PORT}:2222" #pulls from the env file
+    volumes: #what u borrow from the droplet
+      - tailscale1Vol-state:/var/lib/tailscale
+      - /dev/net/tun:/dev/net/tun
+    cap_add: # privileges linked to accounts granted to the sidecar
+      - NET_ADMIN
+      - NET_RAW
+    restart: unless-stopped
+  ssh-workspace: #container(box) 1
+    # ask box to be open ssh server
+    image: lscr.io/linuxserver/openssh-server:latest
+    container_name: ssh-workspace
+    # set the env in the box --> or u can write it in the .env
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - USER_NAME=${SSH_USER}
+      - PASSWORD_ACCESS=true
+      - USER_PASSWORD=${SSH_PASSWORD} # Pulls from the .env file
+      - PACKAGES=curl,wget,git,tmux,vim,htop
+    network_mode: "service:tailscale1" #service: your sidecar name
+    volumes:
+      - ssh-config:/config
+    depends_on:
+      - tailscale1
+    restart: unless-stopped
+volumes:
+  ssh-config:
+  tailscale1Vol-state:
 
+
+.env =================================
+# SSH Account Configuration
+SSH_USER=smth
+SSH_PASSWORD=smthpassword
+
+# System Configuration
+HOST_PORT=numbers
+
+# Tailscale Configuration
+TS_AUTHKEY=tskey-auth-blahblahblah
+TS_STATE_DIR=/var/lib/tailscale
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
