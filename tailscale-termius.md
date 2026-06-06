@@ -47,7 +47,7 @@ sidecar ports --> handles interaction of machines, can acc tlak to the other box
 box ports --> network is open to anyone
 sidecar ports --> specifies which ports can be used
 
-
+$ docker-compose up -d
 
 
 
