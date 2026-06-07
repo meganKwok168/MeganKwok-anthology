@@ -14,7 +14,7 @@
     * $ `sudo tailscale set --ssh` (afterwards, you should go to tailscale, and look at ur tailnet, ad there should be an ssh tag)
     * click on three dots, and start SSH session
 5. Set up an ssh client on your phone. E.g. https://termius.com/
-    * when asked for ip: `$ tailscale [ip of your home device = laptop)]`
+    * when asked for ip: `$ tailscale [ip of your home device = laptop]`
 6. You can now ssh onto your personal device from your phone without having to worry about port forwarding
     * on termius, go to connections on the bottom and then ssh by the searchbar
 Note: You have to use your data, not the school wifi for this
