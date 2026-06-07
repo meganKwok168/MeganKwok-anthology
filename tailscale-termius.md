@@ -66,7 +66,7 @@ generate auth key in tailscale settings --> keys, make reusable
 
 
 docker-compose.yaml ============================================================================
-services:
+`services:
   tailscale1:
     image:  tailscale/tailscale:latest
     container_name: tailscale1
@@ -103,7 +103,7 @@ services:
 volumes:
   ssh-config:
   tailscale1Vol-state:
-
+`
 
 .env =================================
 # SSH Account Configuration
