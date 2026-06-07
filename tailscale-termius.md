@@ -11,7 +11,7 @@
     * `$ sudo service ssh start`
     * `$ sudo service ssh start 2>/dev/null` (this adds to .bashrc)
     * `$ sudo service ssh status` (to check)
-    * $ `sudo tailscale set --ssh` (afterwards, you should go to tailscale, and look at ur tailnet, ad there should be an ssh tag)
+    * `$ sudo tailscale set --ssh` (afterwards, you should go to tailscale, and look at ur tailnet, ad there should be an ssh tag)
     * click on three dots, and start SSH session
 5. Set up an ssh client on your phone. E.g. https://termius.com/
     * when asked for ip: `$ tailscale [ip of your home device = laptop]`
