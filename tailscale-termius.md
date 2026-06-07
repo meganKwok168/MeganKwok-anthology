@@ -66,7 +66,8 @@ generate auth key in tailscale settings --> keys, make reusable
 
 
 docker-compose.yaml ============================================================================
-`services:
+```
+services:
   tailscale1:
     image:  tailscale/tailscale:latest
     container_name: tailscale1
@@ -103,9 +104,10 @@ docker-compose.yaml ============================================================
 volumes:
   ssh-config:
   tailscale1Vol-state:
-`
+```
 
 .env =================================
+```
 # SSH Account Configuration
 SSH_USER=smth
 SSH_PASSWORD=smthpassword
@@ -116,7 +118,7 @@ HOST_PORT=numbers
 # Tailscale Configuration
 TS_AUTHKEY=tskey-auth-blahblahblah
 TS_STATE_DIR=/var/lib/tailscale
-
+```
 
 # more notes
 - I made another box that's basically the duplicate of dockerBox1 as dockerBox2
