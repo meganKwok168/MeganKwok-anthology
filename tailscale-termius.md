@@ -139,8 +139,51 @@ https://tailscale.com/docs/features/access-control/acls
 *  every tailscale connection is direct device-to-device
 *  deny is not an option
 
+acl json ===================
+```
+{
+  "hosts": {
+    "hostName0": "hostIP0",
+    "hostName1": "hostIP1",
+  },
 
+	// Define users and devices that can use Tailscale SSH -- default
+	"ssh": [
+		// Allow all users to SSH into their own devices in check mode.
+		// Comment this section out if you want to define specific restrictions.
+		{
+			"action": "check",
+			"src":    ["autogroup:member"],
+			"dst":    ["autogroup:self"],
+			"users":  ["autogroup:nonroot", "root"],
+		},
+	],
 
+  //Define access control lists
+  "acls": [
+    {  //host1:port can only be ssh'ed into by host0
+      "action": "accept",
+      "src": ["hostName0"],
+      "dst": ["hostName1:port"],
+    },
+    {  //host0:port can be ssh'ed into by anything
+      "action": "accept",
+      "src": ["*"],
+      "dst": ["hostName0:port"],
+    },
+  ],
+
+	//default acls
+	// "acls": [
+	// 	{
+	// 		"action": "accept",
+	// 		"src":    ["*"],
+	// 		"dst":    ["*:*"],
+	// 	},
+	// ],
+
+}
+```
 
 
 
