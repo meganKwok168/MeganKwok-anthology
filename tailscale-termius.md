@@ -137,7 +137,7 @@ https://tailscale.com/docs/features/access-control/acls
   * and what's the alternative: hub and spoke?
   * but apparently mesh architecture gives you more control
 *  every tailscale connection is direct device-to-device
-*  
+*  deny is not an option
 
 
 
