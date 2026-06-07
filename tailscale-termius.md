@@ -125,10 +125,17 @@ TS_STATE_DIR=/var/lib/tailscale
 
 
 
-
-
-
-
+# ACL: Access Control Lists
+https://tailscale.com/docs/features/access-control/acls 
+* series of rules and permissions that govern how and where data can flow within your tailnet
+* default: allows every device to talk to every other device within your tailnet
+* tailnet is designed around the concept of least privilege
+  * wait i don't get it, bc shouldn't that mean that you have to configure it instead of it just giving privilege to everything?
+* has mesh architecture -- what is that
+  * and what's the alternative: hub and spoke?
+  * but apparently mesh architecture gives you more control
+*  every tailscale connection is direct device-to-device
+*  
 
 
 
