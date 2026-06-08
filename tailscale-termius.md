@@ -138,6 +138,8 @@ https://tailscale.com/docs/features/access-control/acls
   * but apparently mesh architecture gives you more control
 *  every tailscale connection is direct device-to-device
 *  deny is not an option
+*  put tags onto your devices
+*  make sure your droplet is connected to tailscale too
 
 acl json ===================
 ```
