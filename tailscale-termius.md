@@ -187,6 +187,10 @@ acl json ===================
 }
 ```
 
+# how to access
+* ssh into droplet
+* ssh appuser@localhost -p 2222
+* business as usual
 
 
 
