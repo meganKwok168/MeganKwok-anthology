@@ -16,3 +16,4 @@ type in OOBE\BYPASSNRO
 7. possibly itunes if i'm dual booting windows
 8. change time to military
 9. digital ocean keys?? (this was written in hs)
+10. for linux camera: $ sudo apt-get install cheese  , then run $ cheese
