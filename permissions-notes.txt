@@ -1,0 +1,17 @@
+- rwx r-x r--
+│ │   │   │
+│ │   │   └── Others (everyone else)
+│ │   └────── Group (users in the same group)
+│ └────────── Owner (the user who owns the file)
+└──────────── File type (- = file, d = directory)
+
+
+Number                             Meaning
+
+777                                     Everyone can read, write and execute
+
+755                                     Owner has full access, others can read and execute
+
+644                                     Owner can read and write, others can only read
+
+600                                     Only the owner can read and write -- no one else
